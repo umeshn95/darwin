@@ -1,0 +1,19 @@
+.index-section-wrapper_about{
+    margin: 0 auto;
+    padding: 136px  142px 0px 132px;
+    height: 90vh;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .index-section-wrapper_about {
+      padding: 60px 20px 0px 20px;
+      height: auto;
+    }
+  }
+  
+  
+  
+  
+  
+  

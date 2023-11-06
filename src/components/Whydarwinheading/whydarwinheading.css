@@ -1,0 +1,71 @@
+.fontfamily1{
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.index-section-wrapper_award{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 26px  32px 0px 32px;
+}
+
+
+.whydarwingheading_main{
+    padding: 90px;
+}
+
+.heading_whydarwinheading{
+  font-size: 53px;
+
+    
+}
+
+.description_whydarwinheading{
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.recieve_reward{
+  
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.description_whydarwinheading1{
+  padding: 10px;
+  font-size: 17px;
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+    .whydarwingheading_main {
+      padding: 60px;
+    }
+  
+    .heading_whydarwinheading {
+      font-size: 42px;
+    }
+  
+    .description_whydarwinheading {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .whydarwingheading_main {
+      padding: 20px;
+    }
+  
+    .heading_whydarwinheading {
+      font-size: 35px;
+    }
+  
+    .description_whydarwinheading {
+      font-size: 14px;
+      line-height: 1.3;
+      padding: 20 0px;
+    }
+  }
