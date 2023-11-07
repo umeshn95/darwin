@@ -10,7 +10,7 @@ import entrepreneur from "../../images/entrepreneurs.png";
 import startup from "../../images/startups.png";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import FreeConsultation from "../FreeConsultation/FreeConsultation";
 
 const MainBanner = ({history}) => {
@@ -78,7 +78,7 @@ window.onload = function() {
     const imageArray = [fintech, inovator, businessz, entrepreneur, startup]
     const [images, setImages] = useState(0)
     const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.down("md"));
+  // const matches = useMediaQuery(theme.breakpoints.down("md"));
     const imagescroll = () => {
         setTimeout(() => {
             if (images < 4 && images >= 0) {

@@ -1,6 +1,6 @@
 //automate main div-
 
-import React, { Component } from 'react';
+import React from 'react';
 import './styles.css';
 
 import "slick-carousel/slick/slick.css"; 
