@@ -31,7 +31,7 @@ const Quality = () => {
            
             <motion.div   initial="rest" whileHover="hover" animate="rest" className='quality_main'>
             <motion.div variants={textMotion}  className='quality_assuarance'><h3 className='quality_assuarance_text'> Quality Assuarance System</h3></motion.div>
-            <motion.div  className='quality_description'><p className='quality_description_text'>At zzetamonk rvices such as product engineering, warranty management, building cloud, infrastructure, network.</p></motion.div>
+            <motion.div  className='quality_description'><p className='quality_description_text'>At Darwin services such as product engineering, warranty management, building cloud, infrastructure, network.</p></motion.div>
             <motion.div className='quality_discover'>Discover Now</motion.div>
         </motion.div>
     

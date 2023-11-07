@@ -6,7 +6,7 @@ export const homeObjThree = {
     topLine: 'Easy Setup',
     headline: 'ROI Focused Google AdWords Management',
     description:
-      "Struggling to increase your ROI? On average, ZetaMonk delivers a return of 5x the investment in Google Ads.",
+      "Struggling to increase your ROI? On average, Darwin delivers a return of 5x the investment in Google Ads.",
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: require('../../images/svg-21.svg'),

@@ -23,7 +23,7 @@ export const homeObjThree = {
     topLine: 'World Class Design',
     headline: 'Industry’s longest warranty',
     description:
-      'Extendable as long as you maintain your anywhere access, you’ll start with a 3-year warranty built-in to the purchase of every Zetamonk Wifi hub.',
+      'Extendable as long as you maintain your anywhere access, you’ll start with a 3-year warranty built-in to the purchase of every Darwin Wifi hub.',
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: require('../../images/svg-25.svg'),
@@ -40,7 +40,7 @@ export const homeObjThree = {
     topLine: 'Easy Setup',
     headline: 'Works with any device',
     description:
-      "Our groundbreaking integration guarantee lets you request a ZetaMonk Home Device, and we'll get it done.",
+      "Our groundbreaking integration guarantee lets you request a Darwin Home Device, and we'll get it done.",
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: require('../../images/svg-26.svg'),

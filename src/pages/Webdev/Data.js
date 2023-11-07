@@ -6,7 +6,7 @@ export const homeObjThree = {
     topLine: 'Web Applications',
     headline: 'The Best Web Design and Development Services',
     description:
-      "The infrastructure we have at ZetaMonk helps us develop web solutions with an unimaginably high-quality to our clients with a lot of flexibility. With a completely professional team, it becomes all the more easy to ensure a timely delivery with all the features and amazing functionalities in place.",
+      "The infrastructure we have at Darwin helps us develop web solutions with an unimaginably high-quality to our clients with a lot of flexibility. With a completely professional team, it becomes all the more easy to ensure a timely delivery with all the features and amazing functionalities in place.",
     buttonLabel: 'Start Now',
     imgStart: 'start',
   smallimg: require('../../images/triangle.svg'),
@@ -20,7 +20,7 @@ export const homeObjThree = {
     lightText: false,
     lightTopLine: false,
     lightTextDesc: false,
-    topLine: 'Web Development at ZetaMonk',
+    topLine: 'Web Development at Darwin',
     headline: 'Developers and their Approach',
     description:
       'We use a structured process to build the right, long-term dedicated developer for your project. Our high-performance frontend and fullstack specialists provide the expertise you need to deliver solutions using key cutting edge performance technologies such as Angular & React Node.js & Python.',

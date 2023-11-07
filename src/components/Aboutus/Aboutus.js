@@ -61,7 +61,7 @@ function Aboutus() {
               <div className='figure_plans_a'>ABOUT US</div>
               <div className='custom_software'>Innovating with a <span style={{ color: '#086AD8' }}>Digital Mindset</span></div>
               {/* <div className='idea_deliver_div'> From idea deliver, our duty is to provide the ideal balance between creativity and technological innovation. </div> */}
-              <div className='fastest_growing'>ZetaMonk is the fastest growing software development company. our competencies lie in setting up dedicated software development teams for mobile app development, web development, application maintenance, artificial intelligence, open source and machine learning things.
+              <div className='fastest_growing'>Darwin is the fastest growing Data Analytic company. our competencies lie in setting up dedicated software development teams for mobile app development, web development, application maintenance, artificial intelligence, open source and machine learning things.
               </div>
               <div className='dig_deeper'><button className='button1s'>DIG DEEPER NOW</button></div>
             </div>

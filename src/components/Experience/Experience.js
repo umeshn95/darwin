@@ -20,7 +20,7 @@ vow your <span style={{color:'#086AD8'}}>success</span></h1></Grid>
     <div className='years'>
         <div className='experience_year_number' ><span className='experience_number'>7</span><span className='figure_plans' style={{textTransform:'uppercase',alignSelf:'flex-end'}}>Years’ Experience in IT</span></div>
         <div style={{flexBasis:'40%'}}>
-<p className='experience_description'>ZetaMonk  specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.
+<p className='experience_description'>Darwin  specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.
 </p>
 </div>
     </div>

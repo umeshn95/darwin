@@ -70,8 +70,8 @@ export const reachout = [
      {icon:icon6s,link:'/digitalmarket',heading:'Upgradation and Migration',description:"Either you want to upgrade outdated web technology or new CMS, we have skilled web developers to make it smooth."},
 ]
 export const mobileout = [
-     {icon:is,  link:'',heading:'iOS App Developments',description:"ZetaMonk has a pool of iOS app developer to meet all your iOS app development needs."},
-     {icon:and,link:'/',heading:'Android App Development',description:"ZetaMonk has a pool of Android app developer to meet all your  app development needs."},
+     {icon:is,  link:'',heading:'iOS App Developments',description:"Darwin has a pool of iOS app developer to meet all your iOS app development needs."},
+     {icon:and,link:'/',heading:'Android App Development',description:"Darwin has a pool of Android app developer to meet all your  app development needs."},
      {icon:hyd,link:'/',heading:'Hybrid App Development',description:"Employ react-native developers to actively build quality hybrid mobile apps and APIs."},
      { icon: icon4s, link: '/mobile', heading: 'Windows Application Development', description: "Acquire a one-stop custom mobile app development services for all your Windows Application Development requirements." }
 ]

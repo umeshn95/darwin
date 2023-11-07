@@ -46,9 +46,9 @@ const APP= (
   <Helmet>
     <meta charSet='UTF-8'/>
     <link rel="icon" href="/favicon.ico"/>
-  <link rel="apple-touch-icon" href="/logo192.png"/>
-      <title>zetamonk</title>
-      <meta name='description' content='zetamonk web development chatbot development ui/ux development'/>
+  {/* <link rel="apple-touch-icon" href="/logo192.png"/> */}
+      <title>Darwin</title>
+      <meta name='description' content='Darwin Data Analytics for school and businesses'/>
       <meta name='viewport' content='width=device-width,initial-scale=1'/>
 
 

@@ -24,7 +24,7 @@
     topLine: 'Easy Setup',
     headline: 'Who We Are ',
     description:
-      "We are a team of skilled engineers and designers with a commitment to building rock solid web platforms, mobile apps and digital experiences for our clients. We work hard to keep up with new ways to remain a leader in the industry.ZetaMonk offers UI/UX design solutions for your business and target customers. We focus on efficient design and agile development from start to finish so you can focus on your core business.",
+      "We are a team of skilled engineers and designers with a commitment to building rock solid web platforms, mobile apps and digital experiences for our clients. We work hard to keep up with new ways to remain a leader in the industry.Darwin offers UI/UX design solutions for your business and target customers. We focus on efficient design and agile development from start to finish so you can focus on your core business.",
     buttonLabel: 'Start Now',
     imgStart: '',
     img: require('../../images/svg-11.svg'),
@@ -59,7 +59,7 @@
     topLine: 'World Class Solution',
     headline: 'We innovate to improve lives, globally',
     description:
-      'ZetaMonk has been founded by Experts from Top Strategic Consulting Organizations.We are comprised of millennials techpreneurs who have been part of both small and large scale digital transformations.',
+      'Darwin has been founded by Experts from Top Strategic Consulting Organizations.We are comprised of millennials techpreneurs who have been part of both small and large scale digital transformations.',
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: require('../../images/svg-10.svg'),
