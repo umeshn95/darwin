@@ -15,7 +15,7 @@ function Career() {
         <>
             <div>
                 <div style={{width:'100%',height:'74px',background:'#2176FF',marginBottom:'50px'}}></div>
-                <WebdevserviceMain heading='ZetaMonk - Your Go-to Technology Partner in Innovation' description='The only thing holding your business back is not being able to find the right software development partner. Let us take your problem off of your hands so you can focus on what really matters - running an efficient company! We help companies build innovative software with a team of world class engineers and an innovative approach to each project, so you can be confident in your success with us.' 
+                <WebdevserviceMain heading='Darwin - Your Go-to Technology Partner in Innovation' description='The only thing holding your business back is not being able to find the right software development partner. Let us take your problem off of your hands so you can focus on what really matters - running an efficient company! We help companies build innovative software with a team of world class engineers and an innovative approach to each project, so you can be confident in your success with us.' 
                     icon={mobileapp}
                 />
                 <ReachOut description='UI/UX Design Service

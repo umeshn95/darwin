@@ -113,46 +113,46 @@ const SoftwareConsultingContentBottom = (props) => {
             <div className='software_consulting_web_design_and_development_icons'> <Grid container >
                 
 {/* web dev */}
-            {props.name === 0 ?   (<> <Grid item align='center' justify='center' xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={nodejs}></img></Grid>
+            {/* {props.name === 0 ?   (<> <Grid item align='center' justify='center' xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={nodejs}></img></Grid>
                         <Grid item align='center' justify='center' xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={Elixer}></img></Grid>
                         <Grid item align='center' justify='center'  xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={mongo}></img></Grid>
-                    <Grid item align='center' justify='center'  xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{ height: '40px', width: '40px' }} src={magent}></img></Grid> </>) : ''}
+                    <Grid item align='center' justify='center'  xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{ height: '40px', width: '40px' }} src={magent}></img></Grid> </>) : ''} */}
                 
                 {/* mobile */}
-                {props.name === 1 ? (<> <Grid item align='center' justify='center' xs={4} sm={4} md={4} xl={4}  lg={matches?4:1}> <img style={{height:'40px',width:'40px'}} src={swifts}></img></Grid>
+                {/* {props.name === 1 ? (<> <Grid item align='center' justify='center' xs={4} sm={4} md={4} xl={4}  lg={matches?4:1}> <img style={{height:'40px',width:'40px'}} src={swifts}></img></Grid>
                         <Grid item align='center' justify='center' xs={4} sm={4} md={4} xl={4}  lg={matches?4:1}> <img style={{height:'40px',width:'40px'}} src={kotlins}></img></Grid>
                         <Grid item align='center' justify='center' xs={4} sm={4} md={4} xl={4}  lg={matches?4:1}> <img style={{height:'40px',width:'40px'}} src={Objectivec}></img></Grid>
-                    </>) : ''}
+                    </>) : ''} */}
                 
                 {/* ui/ux */}
-                {props.name === 2 ? (<> <Grid item align='center' justify='center' xs={2} sm={2} md={2} xl={2}  lg={matches?2:1}> <img style={{height:'40px',width:'40px'}} src={aftereffect}></img></Grid>
+                {/* {props.name === 2 ? (<> <Grid item align='center' justify='center' xs={2} sm={2} md={2} xl={2}  lg={matches?2:1}> <img style={{height:'40px',width:'40px'}} src={aftereffect}></img></Grid>
                         <Grid item align='center' justify='center' xs={2} sm={2} md={2} xl={2}  lg={matches?2:1}> <img style={{height:'40px',width:'40px'}} src={figmas}></img></Grid>
                         <Grid item align='center' justify='center' xs={2} sm={2} md={2} xl={2}  lg={matches?2:1}> <img style={{height:'40px',width:'40px'}} src={invisions}></img></Grid>
                     <Grid item align='center' justify='center' xs={2} sm={2} md={2} xl={2}  lg={matches?2:1}> <img style={{ height: '40px', width: '40px' }} src={illustrators}></img></Grid>
                     <Grid item align='center' justify='center' xs={2} sm={2} md={2} xl={2}  lg={matches?2:1}> <img style={{ height: '40px', width: '40px' }} src={photoshops}></img></Grid>
                     <Grid item align='center' justify='center' xs={2} sm={2} md={2} xl={2}  lg={matches?2:1}> <img style={{ height: '40px', width: '40px' }} src={marvelicons}></img></Grid>
                 
-                </>) : ''}
+                </>) : ''} */}
 
                 {/* software testing */}
-                {props.name === 3 ? (<> <Grid item align='center' justify='center' xs={4} sm={4} md={4} xl={4}  lg={matches?4:1}> <img style={{height:'40px',width:'40px'}} src={jiras}></img></Grid>
+                {/* {props.name === 3 ? (<> <Grid item align='center' justify='center' xs={4} sm={4} md={4} xl={4}  lg={matches?4:1}> <img style={{height:'40px',width:'40px'}} src={jiras}></img></Grid>
                         <Grid item align='center' justify='center' xs={4} sm={4} md={4} xl={4}  lg={matches?4:1}> <img style={{height:'40px',width:'40px'}} src={Postmans}></img></Grid>
-                    <Grid item align='center' justify='center' xs={4} sm={4} md={4} xl={4}  lg={matches?4:1}> <img style={{ height: '40px', width: '40px' }} src={SoapUIs}></img></Grid> </>) : ''}
+                    <Grid item align='center' justify='center' xs={4} sm={4} md={4} xl={4}  lg={matches?4:1}> <img style={{ height: '40px', width: '40px' }} src={SoapUIs}></img></Grid> </>) : ''} */}
                 
                 {/* blockchain */}
-                {props.name === 4 ? (<> <Grid item align='center' justify='center' xs={2.4} sm={2.4} md={2.4} xl={2.4}  lg={matches?2.4:1}> <img style={{height:'40px',width:'40px'}} src={etherum}></img></Grid>
+                {/* {props.name === 4 ? (<> <Grid item align='center' justify='center' xs={2.4} sm={2.4} md={2.4} xl={2.4}  lg={matches?2.4:1}> <img style={{height:'40px',width:'40px'}} src={etherum}></img></Grid>
                         <Grid item align='center' justify='center' xs={2.4} sm={2.4} md={2.4} xl={2.4}  lg={matches?2.4:1}> <img style={{height:'40px',width:'40px'}} src={Hyperledgers}></img></Grid>
                         <Grid item align='center' justify='center' xs={2.4} sm={2.4} md={2.4} xl={2.4}  lg={matches?2.4:1}> <img style={{height:'40px',width:'40px'}} src={Mists}></img></Grid>
                     <Grid item align='center' justify='center' xs={2.4} sm={2.4} md={2.4} xl={2.4}  lg={matches?2.4:1}> <img style={{ height: '40px', width: '40px' }} src={Simplycitys}></img></Grid>
                     <Grid item align='center' justify='center' xs={2.4} sm={2.4} md={2.4} xl={2.4}  lg={matches?2.4:1}> <img style={{ height: '40px', width: '40px' }} src={Soliditys}></img></Grid>
                 
-                </>) : ''}
+                </>) : ''} */}
                 
                 {/* iot */}
-                {props.name === 5 ?(<> <Grid item align='center' justify='center' xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={Arduinos}></img></Grid>
+                {/* {props.name === 5 ?(<> <Grid item align='center' justify='center' xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={Arduinos}></img></Grid>
                         <Grid item align='center' justify='center' xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={OpenSCADAs}></img></Grid>
                         <Grid item align='center' justify='center' xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={Raspbians}></img></Grid>
-                        <Grid item align='center' justify='center' xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={Tessels}></img></Grid> </>) : ''}
+                        <Grid item align='center' justify='center' xs={3} sm={3} md={3} xl={3}  lg={matches?3:1}> <img style={{height:'40px',width:'40px'}} src={Tessels}></img></Grid> </>) : ''} */}
             
                       
                      

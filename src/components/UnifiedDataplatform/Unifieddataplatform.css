@@ -1,6 +1,18 @@
 .unified_data_platform_main{
-
+margin-top: 80px;
 }
+
+@media screen and (max-width: 768px) {
+    .unified_data_platform_main {
+      margin-top: 40px; /* Adjust the margin for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .unified_data_platform_main {
+      margin-top: 20px; /* Adjust the margin for even smaller screens */
+    }
+  }
 
 .index-section-wrapper1{
     font-family: 'Public Sans', sans-serif;

@@ -95,9 +95,9 @@
         color: var(--color-title);
         padding: 20px;
         cursor:pointer;
-        &::-webkit-details-marker {
-          display:none;
-        }
+        // &::-webkit-details-marker {
+        //   display:none;
+        // }
         &:focus {
           outline: solid 3px var(--highlight);
         }
@@ -106,9 +106,9 @@
         }
       }
       p {
-        display: list-item;
+        // display: list-item;
         cursor:default;
-        margin-left:3rem;
+        // margin-left:3rem;
         list-style-type: corona;
       }
       
@@ -140,17 +140,17 @@
   
   @counter-style corona-warning {
     system: cyclic;
-    symbols: 👉;
-    suffix: " ";
+    // symbols: 👉;
+    // suffix: " ";
   }
   @counter-style corona-info {
     system: cyclic;
-    symbols: 👉;
-    suffix: " ";
+    // symbols: 👉;
+    // suffix: " ";
   }
   @counter-style corona-alert {
     system: fixed;
-    symbols: 👉;
-    suffix: " ";
+    // symbols: 👉;
+    // suffix: " ";
   }
   

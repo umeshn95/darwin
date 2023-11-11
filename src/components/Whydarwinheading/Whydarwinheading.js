@@ -12,7 +12,11 @@ const Whydarwinheading = () => {
       <Grid item xs={12} md={6}>
         <div  className='fontfamily1'>
           <p  className='fontfamily1 heading_whydarwinheading'>
-          <span style={{color:"#2176FF"}}>Darwin,</span> The Top Choice For Educators
+          
+          <h2 style={{ textAlign: 'left', whiteSpace: 'pre-wrap' }}>
+                            <strong>Darwin,The Top Choice For Educators</strong>
+                          </h2>
+          
           </p>
           <p  className='fontfamily1 description_whydarwinheading' >
           It’s hard to choose an analytics platform that works for everyone on your team. Learn more about why districts picked Darwin.
@@ -24,7 +28,7 @@ const Whydarwinheading = () => {
       </Grid>
     </Grid>
     <Awardwinning heading="Award-winning Team" description1="An easy-to-use, award-winning platform backed by a powerhouse of educators,
-        researchers, developers, and data experts." point1="Recieved 30 Awards" pointimg1="https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1580853113572-UFP1UFMAY8L3J75QK83Z/Why+BB+-+Awards.png?format=1500w" point2="Loved by 25K+ Schools" pointimg2="https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1580853136600-PGZ52C3V1MSV2QSUVXJE/Why+BB+-+Schools.png?format=1500w" point3="Served 10M+ Students" pointimg3="https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1580853291750-K6UVRFZ5UB9VGGA769U6/Why+BB+-+Students.png?format=1500w" description2="We are a group of dreamers and doers that have one thing in common: a mission to make a difference in the life of each student. We attract some of the brightest minds spanning industry and background, from district administrators to Emmy award-winning designers, all sharing a common purpose of leaving the world a tiny bit better than we found it. From the day BrightBytes was born, our focus has been on supporting thousands of organizations on their journey to harness the power of their data."/>
+        researchers, developers, and data experts." point1="Recieved 30 Awards" pointimg1="https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1580853113572-UFP1UFMAY8L3J75QK83Z/Why+BB+-+Awards.png?format=1500w" point2="Loved by 25K+ Schools" pointimg2="https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1580853136600-PGZ52C3V1MSV2QSUVXJE/Why+BB+-+Schools.png?format=1500w" point3="Served 10M+ Students" pointimg3="https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1580853291750-K6UVRFZ5UB9VGGA769U6/Why+BB+-+Students.png?format=1500w" description2="We are a group of dreamers and doers that have one thing in common: a mission to make a difference in the life of each student. We attract some of the brightest minds spanning industry and background, from district administrators to Emmy award-winning designers, all sharing a common purpose of leaving the world a tiny bit better than we found it. From the day Darwin was born, our focus has been on supporting thousands of organizations on their journey to harness the power of their data."/>
 
     <WorldClass/>
 

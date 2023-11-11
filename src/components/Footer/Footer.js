@@ -579,17 +579,17 @@ const Footer = ({ matches }) => {
           </Typography>
         </Grid>
         <Grid item >
-          <Link to="/webdev"  className={classes.footerDivServiceHeading}>
+          <Link to="/dataM"  className={classes.footerDivServiceHeading}>
             Data Modernization
           </Link>
         </Grid>
         <Grid item >
-          <Link to="/Uiux" className={classes.footerDivServiceHeading}>
+          <Link to="/dataD" className={classes.footerDivServiceHeading}>
             Data Dashboard
           </Link>
         </Grid>
         <Grid item >
-              <Link to="/data-assessment" className={classes.footerDivServiceHeading}>
+              <Link to="/dataA" className={classes.footerDivServiceHeading}>
                 Data Assessment
               </Link>
             </Grid>

@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: 'Organization Products',
   headline: 'Best Solutions,For All Organizations',
   description:
-    'ZetaMonk is one of the world’s leading Web and App Development Company, delivering sophisticated IT solutions to global clients laced with cutting-edge technology and functionalities to sharply enhance the overall productivity of companies',
+    'Darwin is one of the world’s leading Web and App Development Company, delivering sophisticated IT solutions to global clients laced with cutting-edge technology and functionalities to sharply enhance the overall productivity of companies',
   buttonLabel: 'Contact Now',
   imgStart: '',
   img: require('../../images/svg-17.svg'),

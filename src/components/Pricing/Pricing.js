@@ -50,7 +50,7 @@ function Pricing({AOS}) {
 
            service_icon={<SiAdobeindesign></SiAdobeindesign>}
           service_name ='UI/UX Development'
-          service_description='We Provide Custom UI/UX Solutions, ZetaMonk has helped businesses with beautiful design.'
+          service_description='We Provide Custom UI/UX Solutions, Darwin has helped businesses with beautiful design.'
           ></PricingCar>
 
        

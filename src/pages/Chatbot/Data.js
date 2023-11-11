@@ -6,7 +6,7 @@ export const homeObjThree = {
     topLine: 'Easy Integration',
     headline: 'AI Chatbot Development',
     description:
-      "We are building the platform for your communication directly with the target audience. As chatbots are two types,ZetaMonk is creating both of them for your mobile/web application or messenger.",
+      "We are building the platform for your communication directly with the target audience. As chatbots are two types,Darwin is creating both of them for your mobile/web application or messenger.",
     buttonLabel: 'Start Now',
     imgStart: 'start',
     img: require('../../images/svg-9.svg'),

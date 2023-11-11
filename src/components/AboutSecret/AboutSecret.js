@@ -33,8 +33,8 @@ function AboutSecret({AOS}) {
               
               icon={<GoGear></GoGear>}
               heading='Skill'
-         list1=' &#10004;  We recruit and retain exceptional engineering talent and keep training them. 80% of ZetaMonk’s developers and over 50% or QA staff hold Master degree'
-         list2='&#10004; Breadth of technical expertise rare for a mid-sized software development partner. ZetaMonk has several hundred engineers well versed in different combinations of C++, Java, Python, JavaScript and other languages with experience in multitude of underlying platforms, IDEs, APIs, databases and frameworks.'
+         list1=' &#10004;  We recruit and retain exceptional engineering talent and keep training them. 80% of Darwin’s developers and over 50% or QA staff hold Master degree'
+         list2='&#10004; Breadth of technical expertise rare for a mid-sized software development partner. Darwin has several hundred engineers well versed in different combinations of C++, Java, Python, JavaScript and other languages with experience in multitude of underlying platforms, IDEs, APIs, databases and frameworks.'
          list3='&#10004; Integrated Quality Assurance – Manual and Automated'
           ></AboutSec>
 

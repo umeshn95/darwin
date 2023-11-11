@@ -113,7 +113,7 @@ const OurVision = () => {
                     <div className="sqs-html-content">
                       <p className="fontfamily1" style={{ whiteSpace: 'pre-wrap' }} ><strong>OUR VISION</strong></p>
                       <h2 style={{ whiteSpace: 'pre-wrap' }} className="fontfamily1" ><strong>Empowering You to Make A Lasting Impact</strong></h2>
-                      <p className="fontfamily1" style={{ whiteSpace: 'pre-wrap', lineHeight:"1.6" }} >BrightBytes believes that the promise of education expands far beyond academics. We empower you with easy data insights so that you can empower your students to live up to their potential, enjoy their learning experience, and emerge ready to take on the world.&nbsp;</p>
+                      <p className="fontfamily1" style={{ whiteSpace: 'pre-wrap', lineHeight:"1.6" }} >Darwin believes that the promise of education expands far beyond academics. We empower you with easy data insights so that you can empower your students to live up to their potential, enjoy their learning experience, and emerge ready to take on the world.&nbsp;</p>
                     </div>
                   </div>
                 </div>

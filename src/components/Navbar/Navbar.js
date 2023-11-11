@@ -126,16 +126,16 @@ const Navbar = () => {
         <>
          <div
           className="header_main_responsive"
-          style={{ background: scrollPosition > 1 ? "black" : "transparent",zIndex:'999'}}
+          style={{ background: scrollPosition > 1 ? "#1B1967" : "transparent",zIndex:'999'}}
         >
             <Link to='/' onClick={()=>setCross(false)} style={{textDecoration:'none',color:'white'}} >
           
             <div className="header_main_responsive_logo">
       
             <span style={{ fontWeight: "700", fontSize: "24px" }}>
-              Zeta
+              Dar
             </span>
-            <span style={{ fontWeight: "400", fontSize: "24px" }}>monk</span>
+            <span style={{ fontWeight: "400", fontSize: "24px" }}>win</span>
           </div>
             </Link>
           <div
@@ -161,28 +161,36 @@ const Navbar = () => {
         <div class="card">
   
   <details className="warning">
-    <summary>Services</summary>
-    <Link onClick={()=>setCross(!cross)} to='/webdev' style={{textDecoration:"none"}}><p>Web Design and Development Services</p> </Link>
-    <Link onClick={()=>setCross(!cross)} to='/appdev' style={{textDecoration:"none"}}> <p>Mobile App Development</p> </Link>
-    <Link onClick={()=>setCross(!cross)} to='/enterprisedevelopment' style={{textDecoration:"none"}}>  <p>Enterprise Software Development.</p>  </Link>
-    <Link onClick={()=>setCross(!cross)} to='/Uiux' style={{textDecoration:"none"}}>   <p>UI/UX Design</p>  </Link>
-    <Link onClick={()=>setCross(!cross)} to='/qualityAssurance' style={{textDecoration:"none"}}>   <p>Software Quality Assurance</p>   </Link>
-    <Link onClick={()=>setCross(!cross)} to='/support' style={{textDecoration:"none"}}>    <p>Technical Support</p>    </Link>
+    <summary>Solutions</summary>
+    <Link onClick={()=>setCross(!cross)} to='/dataM' style={{textDecoration:"none"}}><p>Data Modernization</p> </Link>
+    <Link onClick={()=>setCross(!cross)} to='/dataD' style={{textDecoration:"none"}}> <p>Data Dashboards</p> </Link>
+    <Link onClick={()=>setCross(!cross)} to='/dataC' style={{textDecoration:"none"}}>  <p>Data Coaching</p>  </Link>
+    <Link onClick={()=>setCross(!cross)} to='/Uiux' style={{textDecoration:"none"}}>   <p>Data Assessment</p>  </Link>
+    
     </details>
   
     <details className="info">
-    <summary>Industries</summary>
-    <Link onClick={()=>setCross(!cross)} to='/ecommerce' style={{textDecoration:"none"}}><p>E-commerce</p> </Link>
+    <summary><Link to='/howitworks' onClick={()=>setCross(!cross)} >How it works</Link></summary>
+    {/* <Link onClick={()=>setCross(!cross)} to='/ecommerce' style={{textDecoration:"none"}}><p>E-commerce</p> </Link>
     <Link onClick={()=>setCross(!cross)} to='/healthcare' style={{textDecoration:"none"}}> <p>Healthcare</p> </Link>
      <Link onClick={()=>setCross(!cross)} to='/education' style={{textDecoration:"none"}}>   <p>Education</p>  </Link>
-    <Link onClick={()=>setCross(!cross)} to='/food' style={{textDecoration:"none"}}>    <p>Food & Grocery</p>    </Link>
+    <Link onClick={()=>setCross(!cross)} to='/food' style={{textDecoration:"none"}}>    <p>Food & Grocery</p>    </Link> */}
     </details>
-    <Link to='/aboutus' onClick={()=>setCross(!cross)} style={{textDecoration:"none"}}>
+    <Link to='/whydarwin' onClick={()=>setCross(!cross)} style={{textDecoration:"none"}}>
   <details class="alert">
+   <summary>Why Darwin</summary>
+    
+                  </details>
+                  </Link>
+
+                  <Link to='/aboutus' onClick={()=>setCross(!cross)} style={{textDecoration:"none"}}>
+  <details class="info">
    <summary>About Us</summary>
     
                   </details>
                   </Link>
+
+                  
 </div>
       </div>  
 
@@ -197,7 +205,7 @@ const Navbar = () => {
           style={{
             zIndex: "999",
             position: "fixed",
-            background: scrollPosition > 1 ? "#1D1B6E" : "transparent",
+            background: scrollPosition > 1 ? "#1D1B6E" : "rgb(29, 27, 110)",
           }}
         >
           <header className="header_sub_blue">

@@ -17,8 +17,8 @@ const Howitworks = () => {
        
               <AboutHeading/>
               <HowItWorksComponent/>
-                <WebdevserviceMain heading={`Modernizing Educational `} variableText = 'Data'  description='Build your educational data strategy on a modernized data infrastructure to support the academic and overall well-being of all learners.' point1='Data Processing'  point2='Data Analytics' point3='Data Storage' 
-                />
+                {/* <WebdevserviceMain heading={`Modernizing Educational `} variableText = 'Data'  description='Build your educational data strategy on a modernized data infrastructure to support the academic and overall well-being of all learners.' point1='Data Processing'  point2='Data Analytics' point3='Data Storage' 
+                /> */}
                 <EngagementModel/>
 <Steps/>
                 <ReachOut description='Darwin Data Modernization Infrastructure' heading1= {ecomm}  />

@@ -46,7 +46,7 @@ const HowItWorksComponent = () => {
                           Buying a data analytics platform doesn’t ensure success. Success starts with alignment, planning, the right algorithms, and dashboards, and continues with ongoing data moments to achieve impact.
                         </p>
                         <p style={{ textAlign: 'center', whiteSpace: 'pre-wrap' ,lineHeight:"1.8" , fontSize:"18px",marginTop:"15px"  }} className="fontfamily1">
-                          <strong>Here’s what to expect with BrightBytes:</strong>
+                          <strong>Here’s what to expect with Darwin:</strong>
                         </p>
                       </div>
                     </div>
