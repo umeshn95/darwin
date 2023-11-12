@@ -386,7 +386,7 @@ padding: 20px;
 
 .header_main_responsive_tab{
     align-items: center;
-    background-color: #fff;
+    background-color: black;
     border-radius: 50px;
     cursor: pointer;
     display: flex;
@@ -405,9 +405,7 @@ padding: 20px;
   flex-direction: column;
 }
 .header_main_responsive_tab_span1{
-  background-color:linear-gradient(
-    265deg
-    ,#1ca3e9,rgb(29, 27, 110));
+  background-color:black;
     display: block;
     width:18px;
     height: 3px;
@@ -418,9 +416,7 @@ padding: 20px;
     z-index: 1;
 }
 .header_main_responsive_tab_span12{
-  background-color:linear-gradient(
-    265deg
-    ,#1ca3e9,rgb(29, 27, 110));
+  background-color:black;
     width:23px;
     height: 3px;
     text-align: left;
@@ -431,9 +427,7 @@ padding: 20px;
     
 }
 .header_main_responsive_tab_span2{
-  background-color:linear-gradient(
-    265deg
-    ,#1ca3e9,rgb(29, 27, 110));
+  background-color:black;
     display: block;
     width:25px;
     height: 3px;
@@ -447,9 +441,7 @@ padding: 20px;
 display: none;
 }
 .header_main_responsive_tab_span3{
-  background-color:linear-gradient(
-    265deg
-    ,#1ca3e9,rgb(29, 27, 110));
+  background-color:black;
     display: block;
     width:18px;
     height: 3px;
@@ -460,9 +452,7 @@ display: none;
     z-index: 1;
 }
 .header_main_responsive_tab_span32{
-  background-color:linear-gradient(
-    265deg
-    ,#1ca3e9,rgb(29, 27, 110));
+  background-color:black;
     width:26px;
     height: 3px;
     transition: all .3s ease-in-out;

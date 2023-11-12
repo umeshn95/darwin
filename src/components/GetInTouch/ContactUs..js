@@ -14,6 +14,8 @@ const ContactUs = () => {
   });
 
   const [validationErrors, setValidationErrors] = useState([]);
+  const [successMessage, setSuccessMessage] = useState('');
+
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -44,6 +46,18 @@ const ContactUs = () => {
 
       // Reset validation errors
       setValidationErrors([]);
+
+       // Clear form data upon successful submission
+       setFormData({
+        fullName: '',
+        email: '',
+        seeking: 'Data Modernization',
+        howDidYouHear: 'Social Media',
+        message: '',
+      });
+
+      // Set success message
+      setSuccessMessage('Form submitted successfully!');
     } catch (error) {
       console.log(error);
       if (error.response && error.response.data && error.response.data.errors) {
@@ -162,6 +176,12 @@ const ContactUs = () => {
                     </ul>
                   </div>
                 )}
+
+<div className='success-message'>
+          <p style={{ color: 'green', textAlign: 'center', fontWeight: 'bold' }}>
+            {successMessage}
+          </p>
+        </div>
               </div>
             </div>
           </Grid>
