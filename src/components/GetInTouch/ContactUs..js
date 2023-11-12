@@ -146,7 +146,7 @@ const ContactUs = () => {
                     ></textarea>
                   </div>
                 </div>
-                <div className='GetInTouch_sub_button' onClick={handleSubmit}>
+                <div className='GetInTouch_sub_button' style={{cursor:"pointer"}} onClick={handleSubmit}>
                   Send Message
                 </div>
                 {/* Display validation errors if any */}
