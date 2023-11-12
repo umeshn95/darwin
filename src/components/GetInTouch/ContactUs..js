@@ -13,6 +13,8 @@ const ContactUs = () => {
     message: '',
   });
 
+  const [validationErrors, setValidationErrors] = useState([]);
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -21,10 +23,19 @@ const ContactUs = () => {
     try {
       const response = await axios.post('https://contactapi-for-darwin.onrender.com/api/contact', formData);
       console.log(response.data); // Handle the response as needed
+
+      // Reset validation errors
+      setValidationErrors([]);
     } catch (error) {
-      console.error('Error submitting contact form:', error);
+      if (error.response && error.response.data && error.response.data.errors) {
+        // Set validation errors
+        setValidationErrors(error.response.data.errors);
+      } else {
+        console.error('Error submitting contact form:', error);
+      }
     }
   };
+
 
   return (
     <>
@@ -94,6 +105,19 @@ const ContactUs = () => {
                 <div className='GetInTouch_sub_button' onClick={handleSubmit}>
                   Send Message
                 </div>
+                  {/* Display validation errors if any */}
+          {validationErrors.length > 0 && (
+            <div className="validation-errors">
+              <p style={{ color: 'red', textAlign: 'center', fontWeight: 'bold' }}>
+                Please fix the following errors:
+              </p>
+              <ul style={{ color: 'red', listStyleType: 'none', padding: 0 }}>
+                {validationErrors.map((error, index) => (
+                  <li key={index}>{error.msg}</li>
+                ))}
+              </ul>
+            </div>
+          )}
               </div>
             </div>
           </Grid>
