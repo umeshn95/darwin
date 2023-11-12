@@ -29,8 +29,8 @@
 .GetInTouch_main_form{
 max-width: 536px;
     background: linear-gradient(
-    265deg
-    ,#1ca3e9,#2176ff);
+        265deg
+        ,#1ca3e9,rgb(29, 27, 110));
         border-radius: 25px;
         color: #fff;
         padding: 35px 25px;

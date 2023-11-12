@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: #2176FF;
+    background: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
     padding: 20px 40px 30px 40px;
 }
 

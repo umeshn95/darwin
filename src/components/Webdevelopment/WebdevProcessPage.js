@@ -9,7 +9,11 @@ const WebdevProcessPage = () => {
     return <div className='WebdevProcessPage_main'>
       
         <div className='WebdevProcessPagel_sub'>
-            <div className='WebdevProcessPage_heading'>How <span style={{color:'#2176ff'}}>Data Analytics platform </span> <br/>
+            <div className='WebdevProcessPage_heading'>How <span style={{ color: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')'}}>Data Analytics platform </span> <br/>
 of Darwin Works?</div>
             <Grid container>
                 <Grid align='center' justify='center' item xs={12} sm={12} md={6}  lg={6} xl={6}>

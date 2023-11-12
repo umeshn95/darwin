@@ -1,95 +1,106 @@
-import React from 'react'
-import  Grid  from '@mui/material/Grid';
-import contactimage from '../../images/contact_us.webp'
-import Background from '../../images/contactus.svg'
+import React, { useState } from 'react';
+import Grid from '@mui/material/Grid';
+import axios from 'axios';
+import contactimage from '../../images/contact_us.webp';
+import Background from '../../images/contactus.svg';
 
 const ContactUs = () => {
-  return (
-   <>
-    <div className='GetInTouch_sub' >
-            
-            <Grid spacing={4} container>
-                <Grid  item xs={12} sm={12} md={6} lg={6} xl={6} >
-                    <div className='GetInTouch_heading'>
-                    <span style={{color:'#2176FF'}}>Let’s build</span> Excellence Together: Your School Data Analytics Partner
-                    </div>
-                    <div className='GetInTouch_description'>
-                    We're Enthusiastic to Explore Your Data Analytics Ideas 
-                    </div>
-                </Grid>
-                <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-                <div className='GetInTouch_main_form'>
-                        <div className='GetInTouch_sub_form'>
-                            <div className='GetInTouch_sub_talk' >
-                            <div className='GetInTouch_sub_head' >
-                            Get in Touch
-                                </div>
-                            <div className='GetInTouch_sub_description' >
-                            Let’s talk about your project.
-                                </div>
-                            </div>
-                            <div className='GetInTouch_sub_name' >
-                                <Grid container spacing={3}>
-                                    <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-                                        <div className='GetInTouch_full_name'  >
-                                        <label>Full Name</label>
-                                        <input type='text'></input>
-                                        </div>
-                                    </Grid>
-                                    <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
-                                    <div className='GetInTouch_email'  >
-                                        <label>Email</label>
-                                        <input type='text'  ></input>
-                                        </div>
-        
-                                    </Grid>
-                                </Grid>
-                            </div>
-                            <div className='GetInTouch_sub_seeking' >
-        
-                            <div  className='GetInTouch_sub_what_seeking'  >
-                            <label> What are you seeking? </label>
-                            <select id="cars" name="cars">
-                            <option value="dteam">Data Modernization</option>
-        <option value="fgigs">Data Dashboard</option>
-        <option value="copportunity">Data Coaching</option>
-        <option value="Ginquiry">Data Assessment</option>
-        </select>
-                                </div>
-                               
-                            </div>
-                            <div className='GetInTouch_sub_hear' >
-                            <div className='GetInTouch_sub_want_hear'  >
-                            <label> How did you hear about Darwin? </label>
-                            <select id="cars" name="cars">
-        <option value="smedia">Social Media</option>
-        <option value="linkedin">Linkedin</option>
-        <option value="dsearch">Direct Search</option>
-        <option value="Friends">Friends</option>
-        </select>
-                                        </div>
-                            </div>
-                            <div className='GetInTouch_sub_message' >
-                                <div className='GetInTouch_sub_message_here'  >
-                                        <label>Your Message</label>
-                                        <textarea type='text'  ></textarea>
-                                        </div>
-                            </div>
-                            <div className='GetInTouch_sub_button' >
-                                Send Message
-                            </div>
-                    </div>
-                    </div>
-                </Grid>
-        </Grid>
-        </div>
-        
-        
-        
-        
-      
-      </>
-  )
-}
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    seeking: 'Data Modernization',
+    howDidYouHear: 'Social Media',
+    message: '',
+  });
 
-export default ContactUs
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async () => {
+    try {
+      const response = await axios.post('https://contactapi-for-darwin.onrender.com/api/contact', formData);
+      console.log(response.data); // Handle the response as needed
+    } catch (error) {
+      console.error('Error submitting contact form:', error);
+    }
+  };
+
+  return (
+    <>
+      <div className='GetInTouch_sub'>
+        <Grid spacing={4} container>
+          <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
+            <div className='GetInTouch_heading'>
+              <span style={{  color: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')' }}>Let’s build</span> Excellence Together: Your School Data Analytics Partner
+            </div>
+            <div className='GetInTouch_description'>We're Enthusiastic to Explore Your Data Analytics Ideas </div>
+          </Grid>
+          <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
+            <div className='GetInTouch_main_form'>
+              <div className='GetInTouch_sub_form'>
+                <div className='GetInTouch_sub_talk'>
+                  <div className='GetInTouch_sub_head'>Get in Touch</div>
+                  <div className='GetInTouch_sub_description'>Let’s talk about your project.</div>
+                </div>
+                <div className='GetInTouch_sub_name'>
+                  <Grid container spacing={3}>
+                    <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+                      <div className='GetInTouch_full_name'>
+                        <label>Full Name</label>
+                        <input type='text' name='fullName' onChange={handleChange} value={formData.fullName} />
+                      </div>
+                    </Grid>
+                    <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+                      <div className='GetInTouch_email'>
+                        <label>Email</label>
+                        <input type='text' name='email' onChange={handleChange} value={formData.email} />
+                      </div>
+                    </Grid>
+                  </Grid>
+                </div>
+                <div className='GetInTouch_sub_seeking'>
+                  <div className='GetInTouch_sub_what_seeking'>
+                    <label> What are you seeking? </label>
+                    <select id='seeking' name='seeking' onChange={handleChange} value={formData.seeking}>
+                      <option value='Data Modernization'>Data Modernization</option>
+                      <option value='Data Dashboard'>Data Dashboard</option>
+                      <option value='Data Coaching'>Data Coaching</option>
+                      <option value='Data Assessment'>Data Assessment</option>
+                    </select>
+                  </div>
+                </div>
+                <div className='GetInTouch_sub_hear'>
+                  <div className='GetInTouch_sub_want_hear'>
+                    <label> How did you hear about Darwin? </label>
+                    <select id='howDidYouHear' name='howDidYouHear' onChange={handleChange} value={formData.howDidYouHear}>
+                      <option value='Social Media'>Social Media</option>
+                      <option value='Linkedin'>Linkedin</option>
+                      <option value='Direct Search'>Direct Search</option>
+                      <option value='Friends'>Friends</option>
+                    </select>
+                  </div>
+                </div>
+                <div className='GetInTouch_sub_message'>
+                  <div className='GetInTouch_sub_message_here'>
+                    <label>Your Message</label>
+                    <textarea type='text' name='message' onChange={handleChange} value={formData.message}></textarea>
+                  </div>
+                </div>
+                <div className='GetInTouch_sub_button' onClick={handleSubmit}>
+                  Send Message
+                </div>
+              </div>
+            </div>
+          </Grid>
+        </Grid>
+      </div>
+    </>
+  );
+};
+
+export default ContactUs;

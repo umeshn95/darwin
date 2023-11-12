@@ -4,10 +4,12 @@ import Newcard from '../Newcard/Newcard'
 const Plans = () => {
   return (
     <>
-        <div>
-        <div style={{width:'100%',height:'74px',background:'#2176FF',marginBottom:'50px',position:'relative'}}></div>
+        {/* <div>
+        <div style={{width:'100%',height:'74px',background:'linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110))',marginBottom:'50px',position:'relative'}}></div>
         <Newcard/>
-        </div>
+        </div> */}
     </>
   )
 }

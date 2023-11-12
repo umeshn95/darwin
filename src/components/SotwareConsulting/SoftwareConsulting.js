@@ -38,7 +38,11 @@ const SoftwareConsulting = () => {
 
     return <div className='software_consulting_main'>
         <div className='software_consulting_sub'>
-            <div className='software_consulting_development_services'>Data <span style={{color: '#2176ff'}}>Consulting & <br/>
+            <div className='software_consulting_development_services'>Data <span style={{ color: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')'}}>Consulting & <br/>
 Analytics Services...</span></div>
             <div className='software_consulting_perfect_blend'>...with the perfect blend of technology, expertise and innovation.</div>
             <div className='software_consulting_perfect_all'>
@@ -63,7 +67,11 @@ const SoftwareConsultingAll = () => {
             <Grid item sm={12}  md={6} lg={8}>
                     <Grid container  spacing={2}>
                 {webdev.map((w,i) => <>
-                    <Grid onClick={()=> setJ(i)} item xs={12} sm={4}  md={4} lg={4} align='center' justify='center'><div className='software_consultin_all_button_main' style={{background: i===j?'linear-gradient(265deg,#1ca3e9,#2176ff)':'white',color: i===j?'white':'black'}} >
+                    <Grid onClick={()=> setJ(i)} item xs={12} sm={4}  md={4} lg={4} align='center' justify='center'><div className='software_consultin_all_button_main' style={{background: i===j?  'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')':'white',color: i===j?'white':'black'}} >
                         <div className='software_consultin_all_button_icon'><img style={{height:'30px',width:'30px'}} src={i===j?w.icon1:w.icon}></img></div>
                     <div className='software_consultin_all_button_text'>{ w.text}</div>
                     </div></Grid>

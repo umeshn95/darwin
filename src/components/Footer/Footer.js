@@ -408,7 +408,11 @@ import { Link } from 'react-router-dom/cjs/react-router-dom';
 const useStyles = makeStyles((theme) => ({
   footerMainDiv: {
     
-    backgroundColor: '#2176FF', // Set your desired background color
+    background: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')', // Set your desired background color
     color: '#fff', // Set your desired text color
     padding: '15px 50px',
   },

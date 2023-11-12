@@ -59,7 +59,9 @@
   /* new header start */
 
   .header_main_blue{
-    background: rgb(29, 27, 110);
+    background: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
   }
 
   .header_sub_blue{

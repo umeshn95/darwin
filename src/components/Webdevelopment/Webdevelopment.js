@@ -14,7 +14,11 @@ function Webdevelopment() {
     return (
         <>
             <div>
-                <div style={{width:'100%',height:'74px',background:'#2176FF',marginBottom:'50px'}}></div>
+                <div style={{width:'100%',height:'74px', background: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')',marginBottom:'50px'}}></div>
                 <WebdevserviceMain heading='Web Design and Development Services' description='Outsource web design and development to a creative team of web developers' point1='
 Get seasoned web development experts who ramp up quickly, and readily contribute to your business success' point2='Communicate and collaborate to stay updated with every development in the project.' point3='Onboard dedicated web developers and designers for your mission-critical web projects.' icon={webdevimages} />
                 <ReachOut heading='' description='Hire Web Design

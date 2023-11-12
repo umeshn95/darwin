@@ -15,7 +15,11 @@ function EnterpiseDevelopment() {
     return (
         <>
             <div>
-                <div style={{width:'100%',height:'74px',background:'#2176FF',marginBottom:'50px'}}></div>
+                <div style={{width:'100%',height:'74px', background: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')',marginBottom:'50px'}}></div>
                 <WebdevserviceMain heading='Leading Enterprise Software Development Company' description='Tap in cutting edge enterprise software development to increase operational efficiency.' point1='
 Develop custom enterprise software for industry-specific needs.'  point2='
 

@@ -15,7 +15,11 @@ function Uiuxdevelopment() {
     return (
         <>
             <div>
-                <div style={{width:'100%',height:'74px',background:'#2176FF',marginBottom:'50px'}}></div>
+                <div style={{width:'100%',height:'74px', background: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')',marginBottom:'50px'}}></div>
                 <WebdevserviceMain heading='Top UI/UX Design Services' description='Get an eye catching-look and feel for your solutions with UI/UX design services.' point1='
 
 Increase future product adoption by creating intuitive user experience design.'  point2='

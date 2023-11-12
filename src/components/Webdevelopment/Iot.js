@@ -16,7 +16,11 @@ function Iot() {
     return (
         <>
             <div>
-                <div style={{width:'100%',height:'74px',background:'#2176FF',marginBottom:'50px'}}></div>
+                <div style={{width:'100%',height:'74px', background: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')',marginBottom:'50px'}}></div>
                 <WebdevserviceMain heading='Internet of Things (IoT) Development Company' description='TAccelerating innovation for connected enterprises.' point1='
 
 Stay ahead of the competition with flexible Internet of Things (IoT) development services.'  point2='

@@ -24,7 +24,11 @@ const matches = useMediaQuery(theme.breakpoints.down("md"));
                 <Grid item sm={12} md={6} lg={6}>
                     <div className='engagement_model_leftpart_main'>
                     <div className='engagement_model_leftpart_heading'>
-                    Engagement <span style={{color:'#2176FF'}}>Models</span>
+                    Engagement <span style={{ color: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')'}}>Models</span>
                         </div>
                         <div className='engagement_model_leftpart_description'>
                         We asked our customers what makes us special <br/>

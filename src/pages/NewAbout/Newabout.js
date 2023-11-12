@@ -11,7 +11,9 @@ const Newabout = () => {
   return (
     <>
     <div>
-                {/* <div style={{width:'100%',height:'64px',background:'#2176FF'}}></div> */}
+                {/* <div style={{width:'100%',height:'64px',background:'linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110))'}}></div> */}
 
                 <AboutHeading/>
                 <OurVision/>

@@ -205,7 +205,11 @@ const Navbar = () => {
           style={{
             zIndex: "999",
             position: "fixed",
-            background: scrollPosition > 1 ? "#1D1B6E" : "rgb(29, 27, 110)",
+            background: 'linear-gradient(' +
+            '265deg, ' +
+            '#1ca3e9, ' +
+            'rgb(29, 27, 110)' +
+            ')',
           }}
         >
           <header className="header_sub_blue">

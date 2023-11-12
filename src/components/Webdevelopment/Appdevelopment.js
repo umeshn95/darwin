@@ -14,7 +14,11 @@ function Appdevelopment() {
     return (
         <>
             <div>
-                <div style={{width:'100%',height:'74px',background:'#2176FF',marginBottom:'50px'}}></div>
+                <div style={{width:'100%',height:'74px', background: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')',marginBottom:'50px'}}></div>
                 <WebdevserviceMain heading='Trusted Mobile App Development Company' description='Turn your custom mobile app development project into a success.' point1='
 Benefit from the expertise of seasoned mobile app developers to build outstanding applications'  point2='
 Leverage constant communication and collaboration to stay updated on every step of custom mobile app development services outsourcing.'

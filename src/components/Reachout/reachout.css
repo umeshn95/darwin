@@ -16,7 +16,9 @@
 .webdev_main:hover{
     transition: 0.8s;
     transform: translateY(-5px);
-    background: #2176FF;
+    background: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.145);
     backdrop-filter: blur( 1px );
     -webkit-backdrop-filter: blur( 1px );
@@ -60,7 +62,9 @@ font-family: 'Public Sans', sans-serif;
 .webdev_sub3{
 line-height: 3;
 letter-spacing: 1.4;
-color: #2176FF;
+color: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
 font-size: 14px;
 font-family: 'Public Sans', sans-serif;
 --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";

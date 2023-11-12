@@ -104,9 +104,13 @@
 }
 
 .software_consulting_web_design_and_development_learn_more{
-    background: transparent;
-    background-color: #2176FF;
-    border: 1px solid #2176FF;
+    background: linear-gradient(
+        265deg
+        ,#1ca3e9,rgb(29, 27, 110));
+    background-color: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
+    border: transparent;
     border-radius: 50rem;
     color: #fff!important;
     display: inline-block;

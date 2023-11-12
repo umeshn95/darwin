@@ -14,7 +14,11 @@ function Foodgrocery() {
     return (
         <>
             <div>
-                <div style={{width:'100%',height:'74px',background:'#2176FF',marginBottom:'50px'}}></div>
+                <div style={{width:'100%',height:'74px', background: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')',marginBottom:'50px'}}></div>
                 <WebdevserviceMain heading='Assessment Solutions' description='
 Full support for online and paper-based test administration, advanced test authoring tools, and an extensive content library of benchmark assessments, item banks, and progress monitoring tools' point1='Data Leadership Coaching'  point2='In-App Resources' point3='Digital Learning Center'
                     icon={mobileapp}

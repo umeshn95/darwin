@@ -25,10 +25,14 @@
 
 @media only screen and (max-width: 900px) {
     .mainbanner_main {
-      background-color: #2176ff;
+      background-color: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
     }
     .mainbanner_sub{
-      background-color: #2176ff;
+      background-color: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
     }
     .main_banner_animation{
         margin-top: -100px;
@@ -91,10 +95,14 @@
 
 @media only screen and (max-width: 500px) {
     .mainbanner_main {
-      background-color: #2176ff;
+      background-color: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
     }
     .mainbanner_sub{
-      background-color: #2176ff;
+      background-color: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
     }
   
     .Mainbanner_heading_description{

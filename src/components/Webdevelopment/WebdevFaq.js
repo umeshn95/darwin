@@ -15,7 +15,11 @@ const WebdevFaq = () => {
       
         <div className='WebdevFaq_sub'>
             <div className="WebdevFaq_faq">
-            Frequently Asked <span style={{color:"#2176ff"}}>Questions</span>
+            Frequently Asked <span style={{ color: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')'}}>Questions</span>
         </div>
         <div className='WebdevFaq_faq_real'>
     <Simple1/>

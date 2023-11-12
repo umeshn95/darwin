@@ -1,7 +1,9 @@
 .footer_main_div{
     /* padding:25px 25px 25px 15px; */
     
-    background: #2176FF;
+    background: linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
     /* position: sticky; */
     height: 300px;
     color: white;

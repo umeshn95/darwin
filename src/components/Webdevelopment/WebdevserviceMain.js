@@ -12,7 +12,11 @@ const WebdevserviceMain = ({heading,description,point1,point2,point3,icon,variab
             <div className='webdev_service_heading'>  
             <h2 style={{ textAlign: 'left', whiteSpace: 'pre-wrap' }}>
                             <strong>{ heading}</strong>
-                          </h2> <span style={{color:'#2176FF'}}>
+                          </h2> <span style={{ color: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')'}}>
                           <h2 style={{ textAlign: 'left', whiteSpace: 'pre-wrap',lineHeight:"0.5" }}>
                             <strong>{ variableText}</strong>
                           </h2>

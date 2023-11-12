@@ -99,8 +99,12 @@
     justify-content: center;
 }
 .engagementmodel_view_pricing button{
-    background-color:#2176FF;
-    border: 1px solid #2176FF;
+    background-color:linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
+    border: 1px solid linear-gradient(
+    265deg
+    ,#1ca3e9,rgb(29, 27, 110));
     border-radius: 50rem;
     color: #fff!important;
     display: inline-block;

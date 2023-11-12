@@ -16,7 +16,11 @@ function Healthcare() {
     return (
         <>
             <div>
-                <div style={{width:'100%',height:'74px',background:'#2176FF',marginBottom:'50px'}}></div>
+                <div style={{width:'100%',height:'74px', background: 'linear-gradient(' +
+    '265deg, ' +
+    '#1ca3e9, ' +
+    'rgb(29, 27, 110)' +
+    ')',marginBottom:'50px'}}></div>
                 <WebdevserviceMain heading='Dashboards And Analytics Tools' variableText1='Data' description='Leverage outcomes-based dashboards powered by predictive analytics, evidence-based data strategies, and analysis to fuel action.' point1='Descriptive and predictive data Analysis.'  point2='Understand the data through questions' point3='Take data-driven action and measure' 
                     icon={HealthcareSoftwareDevelopmentServices}
                 />
