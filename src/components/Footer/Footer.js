@@ -607,17 +607,17 @@ const Footer = ({ matches }) => {
           </Typography>
         </Grid>
         <Grid item>
-          <Link to="/education" className={classes.footerDivServiceHeading}>
+          <Link to="/dataM" className={classes.footerDivServiceHeading}>
             Education
           </Link>
         </Grid>
         <Grid item>
-          <Link to="/ecommerce" className={classes.footerDivServiceHeading}>
+          <Link to="/dataD" className={classes.footerDivServiceHeading}>
             E-commerce
           </Link>
         </Grid>
         <Grid item>
-          <Link to="/healthcare" className={classes.footerDivServiceHeading}>
+          <Link to="/dataA" className={classes.footerDivServiceHeading}>
             Healthcare
           </Link>
         </Grid>
@@ -631,7 +631,9 @@ const Footer = ({ matches }) => {
           </Typography>
         </Grid>
         <Grid item>
-          <div className={classes.footerDivServiceHeading}>About Us</div>
+        <Link to="/about" className={classes.footerDivServiceHeading}>
+            About Us
+          </Link>
         </Grid>
         <Grid item>
           <Link to="/contact" className={classes.footerDivServiceHeading}>
@@ -649,7 +651,7 @@ const Footer = ({ matches }) => {
       <Grid container spacing={2}>
         <Grid item xs={12} md={12} sm={12} lg={12} >
           <img src={email} style={{ height: "30px",padding:"5px" }} />
-          <span style={{ fontWeight: '600', fontSize: '20px',padding:"5px" }}>Email Us</span>
+          <span style={{ fontWeight: '600', fontSize: '20px',padding:"5px" }}><Link to='/contact' style={{textDecoration:"none",color:"white"}}>Email us </Link></span>
         </Grid>
       </Grid>
     </Grid>
