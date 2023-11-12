@@ -68,17 +68,17 @@ const Navbar = () => {
   };
   // scroll componrnt end
 
-  useEffect(() => {
-    if (scrollPosition > 10) {
-      handleColor(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (scrollPosition > 10) {
+  //     handleColor(true);
+  //   }
+  // }, []);
 
   // scroll color
 
   //  console.log(scrollPosition)
 
-  console.log(navcolor);
+  // console.log(navcolor);
 
   const [disp, setDisp] = useState(false);
   const [service, setService] = useState(false);
@@ -113,12 +113,12 @@ const Navbar = () => {
 
   const classes = useStyle();
 
-  const DispFunc = () => {
-    setTimeout(() => {
-      setDisp(true);
-    }, 500);
-  };
-  console.log(navcolor);
+  // const DispFunc = () => {
+  //   setTimeout(() => {
+  //     setDisp(true);
+  //   }, 500);
+  // };
+  // console.log(navcolor);
 
   return (
     <>
