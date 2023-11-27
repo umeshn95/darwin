@@ -572,7 +572,7 @@ const Footer = ({ matches }) => {
         Bengaluru, Karnataka 560100
       </div>
       <div className="footercontact">contact@darwinanalytic.com</div>
-      <div className={classes.footerDivAddress}>(+91) 9540424976</div>
+      <div className={classes.footerDivAddress}>(+91) 9109235982</div>
       {/* <div className={classes.footerDivAddress}>www.darwinanalytic.com</div> */}
     </Grid>
     <Grid item xs={6} md={2} lg={2}>
