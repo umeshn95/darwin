@@ -185,7 +185,7 @@ const Navbar = () => {
 
                   <Link to='/aboutus' onClick={()=>setCross(!cross)} style={{textDecoration:"none"}}>
   <details class="info">
-   <summary>About Us</summary>
+   About Us
     
                   </details>
                   </Link>

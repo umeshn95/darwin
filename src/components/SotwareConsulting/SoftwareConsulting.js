@@ -99,11 +99,11 @@ const SoftwareConsultingContentBottom = (props) => {
       <div className='software_consulting_web_design_and_development_content'>
             <div className='software_consulting_web_design_and_development_heading'>
                 {props.name === 0 ? 'Student Performance Analytics' : ''}
-                {props.name === 1 ? 'Attendance Analysis' : ''}
+                {props.name === 3 ? 'Attendance Analysis' : ''}
                 {props.name === 2 ? 'Teacher and Staff Analytics' : ''}
-                {props.name === 3 ? 'Standardized Testing Analysis' : ''}
-                {props.name === 4 ? 'Enrollment and Demographics' : ''}
-                {props.name === 5 ? 'Data Visualization and Reporting' : ''}
+                {props.name === 4 ? 'Standardized Testing Analysis' : ''}
+                {props.name === 5 ? 'Enrollment and Demographics' : ''}
+                {props.name === 1 ? 'Data Visualization and Reporting' : ''}
             
             
             
@@ -111,11 +111,11 @@ const SoftwareConsultingContentBottom = (props) => {
             </div>
             <div className='software_consulting_web_design_and_development_description'>
                 {props.name === 0 ? 'Scalable web product development at any stage and ongoing support after launch.' : ''}
-                {props.name === 1 ? 'Monitor and analyze attendance data to identify patterns and trends. This can help in improving attendance rates.' : ''}
+                {props.name === 3 ? 'Monitor and analyze attendance data to identify patterns and trends. This can help in improving attendance rates.' : ''}
                 {props.name === 2 ? 'Access teacher and staff performance, including professional development needs and evaluation processes.' : ''}
-                {props.name === 3 ? 'Analyze results from standardized tests to measure student progress and identify areas for improvement.' : ''}
-                {props.name === 4 ? 'Analyze enrollment trends, student demographics, and geographic distribution to plan for future growth and resource allocation.' : ''}
-                {props.name === 5 ? 'Develop interactive dashboards, charts, graphs, and reports to present educational data in a visually engaging and comprehensible manner.' : ''}
+                {props.name === 4 ? 'Analyze results from standardized tests to measure student progress and identify areas for improvement.' : ''}
+                {props.name === 5 ? 'Analyze enrollment trends, student demographics, and geographic distribution to plan for future growth and resource allocation.' : ''}
+                {props.name === 1 ? 'Develop interactive dashboards, charts, graphs, and reports to present educational data in a visually engaging and comprehensible manner.' : ''}
             
                </div>
             <div className='software_consulting_web_design_and_development_icons'> <Grid container >

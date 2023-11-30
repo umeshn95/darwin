@@ -651,7 +651,7 @@ const Footer = ({ matches }) => {
       <Grid container spacing={2}>
         <Grid item xs={12} md={12} sm={12} lg={12} >
           <img src={email} style={{ height: "30px",padding:"5px" }} />
-          <span style={{ fontWeight: '600', fontSize: '20px',padding:"5px" }}><Link to='/contact' style={{textDecoration:"none",color:"white"}}>Email us </Link></span>
+          <span style={{ fontWeight: '600', fontSize: '20px',padding:"5px" }}><a href="mailto:contact@darwinanalytic.com" style={{textDecoration:"none",color:"white"}}>Email us </a></span>
         </Grid>
       </Grid>
     </Grid>

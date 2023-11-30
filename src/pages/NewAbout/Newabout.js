@@ -56,7 +56,7 @@ export const AboutHeading = () => {
                     <div className="sqs-block-content">
                       <div className="sqs-html-content">
                         <h1 style={{ whiteSpace: 'pre-wrap',color:"white" }}>
-                          <strong>Data Analytics To Improve Student Outcomes For All</strong>
+                          <strong>Data Analytics To Enhance Student Outcomes For All</strong>
                         </h1>
                         <h3 style={{ whiteSpace: 'pre-wrap',color:"white" }} className="fontfamily1">
                           Our mission is to actualize the expansive promise of education by transforming data into actionable insights that positively impact students’ academic and overall well-being.

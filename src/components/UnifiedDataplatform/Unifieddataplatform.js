@@ -14,12 +14,12 @@ import { Link } from 'react-router-dom/cjs/react-router-dom';
 const items = [
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630398759762-HZNCDUJQLBOUOECZYJRT/image-asset.png?format=100w', text: 'Modern Learning' },
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630603514543-KZ9EQ2CEHY7T9Z0RLWWA/14.Solutions+ESSA+Reporting%3F.png?format=100w', text: 'ESSA Reporting' },
-    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421321425-HDSV2D6RHEMR2TGZ4AST/Solutions+College+and+Career+Readiness.png?format=100w', text: 'College & Career Readiness' },
+    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421321425-HDSV2D6RHEMR2TGZ4AST/Solutions+College+and+Career+Readiness.png?format=100w', text: 'Career Readiness' },
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630422159086-9ZW92JKBEQV96UUR08D3/17.Solutions+Operation.png?format=100w', text: 'Progress Monitoring' },
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421358958-NDRNWWUEYZNHH4MMM0BR/5.Solutions+Behavior+and+Discipline.png?format=100w', text: 'Behavior & Discipline' },
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421408265-V4IJSUZUI4EVQV31NTZG/Solutions+Attendance.png?format=100w', text: 'Attendance' },
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630420989028-W4VXXKJ3DBC2904BYVI8/Solutions+Early+Warning.png?format=100w', text: 'Early Warning' },
-    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421234995-FIY9M7GBDPK5L2QWSDB2/Solutions+Social+and+Emotional+Learning.png?format=100w', text: 'Social and Emotional Learning' },
+    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421234995-FIY9M7GBDPK5L2QWSDB2/Solutions+Social+and+Emotional+Learning.png?format=100w', text: 'Social Learning' },
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421070023-8GVXWK66X8YVPGA71KC4/Solutions+Whole+Child.png?format=100w', text: 'Whole Child' },
     
     
@@ -28,7 +28,7 @@ const items = [
     
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421433115-XAYKAV2XRVVFMBOZBOOM/8.Solutions+Assesments.png?format=100w', text: 'Assessments' },
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421455694-AYRSJ3ULYVXC8KEB5JPB/9.Solutions+Enrollment.png?format=100w', text: 'Enrollment' },
-    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630601964682-FVZNA8FHVLUZ5JW9A9NS/10.Solutions+School+Climate+%26+Culture%3F.png?format=100w', text: 'School Climate & Culture' },
+    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630601964682-FVZNA8FHVLUZ5JW9A9NS/10.Solutions+School+Climate+%26+Culture%3F.png?format=100w', text: 'School Culture' },
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421760927-U2IT0R3GIZ4L9VR5GJOL/11.Solutions+Student+Interventions.png?format=100w', text: 'Intervention' },
     
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421789735-P2707P1HSIB5YNZVWZTD/12.Solutions+Ed-Tech+Impact.png?format=100w', text: 'EdTech Impact' },

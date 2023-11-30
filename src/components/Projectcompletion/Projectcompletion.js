@@ -31,7 +31,7 @@ const Projectcompletion = () => {
             </Grid>
             <Grid item xs={12} sm={12} md={4} lg={2} xl={2} align='center'>
             <div>
-                <div className='zetamonk_contacus_numbers'>5+</div>
+                <div className='zetamonk_contacus_numbers'>8+</div>
                 <div className='zetamonk_contacus_numbers_text'>YEARS OF EXPERIENCE</div>
               </div>
             </Grid>
