@@ -565,14 +565,14 @@ const Footer = ({ matches }) => {
   <Grid container spacing={1}>
     <Grid item xs={12} md={6} lg={4} align={matches ? 'center' : 'left'}>
       <div className="footerserviceHeading">
-        8th Cross Rd,
+        84 Harrow Road,
         <br />
-        Electronics City Phase 1,
+        SellyOak,
         <br />
-        Bengaluru, Karnataka 560100
+        B29 7DW, Birmingham
       </div>
       <div className="footercontact">contact@darwinanalytic.com</div>
-      <div className={classes.footerDivAddress}>(+91) 9540424976</div>
+      <div className={classes.footerDivAddress}>(+91) 9109235982</div>
       {/* <div className={classes.footerDivAddress}>www.darwinanalytic.com</div> */}
     </Grid>
     <Grid item xs={6} md={2} lg={2}>
