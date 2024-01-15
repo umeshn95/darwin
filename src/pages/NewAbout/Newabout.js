@@ -10,6 +10,7 @@ import WebinarBanner from '../../components/Webdevelopment/WebinarBanner'
 import ResponsiveCountComponent from './ResponsiveCountComponent'
 import Dreamer from './Dreamer'
 import Ourvision from './Ourvision'
+import CareerSection from '../../components/CareerPage/CareerSection'
 
 
 const Newabout = () => {
@@ -20,7 +21,10 @@ const Newabout = () => {
     265deg
     ,#1ca3e9,rgb(29, 27, 110))'}}></div> */}
 
-                <AboutHeading backgroundUrl="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705127111/DALL_E_2024-01-13_11.53.19_-_Generate_an_image_of_two_very_natural-looking_young_girls_with_cheerful_smiles_sitting_casually_on_a_school_bench._They_should_be_dressed_in_simple_xe3aje.png"/>
+                {/* <AboutHeading backgroundUrl="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705127111/DALL_E_2024-01-13_11.53.19_-_Generate_an_image_of_two_very_natural-looking_young_girls_with_cheerful_smiles_sitting_casually_on_a_school_bench._They_should_be_dressed_in_simple_xe3aje.png"/> */}
+                <div style={{width:'100%',height:'84px',background:"#000080"}}></div>
+
+                <CareerSection heading="We are Darwin" subtitle="" description="We Shape Education" show={false} image="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705336475/in_a_solid_yell_6a10eb36-884b-4901-96c9-021f4ddc9264_wilwla.png"/>
                 {/* <WebinarBanner/> */}
                 <Ourvision image1={"https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1575582984208-TS0Y8GN033W91OAPLJOA/About+Lasting+Impact.png"} heading1="OUR VISION" description1="By leveraging data-driven insights, Our platform enables personalized learning experiences, pinpointing areas where students excel and identifying opportunities for growth" image2="https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1616426292646-2YCIG91UCUMHRNJA8FQX/welovedata.png" heading2="WE LOVE STUDENTS" subheading2="A Greater Purpose" description2="Our faith lies in education's capacity to transform personal destinies and enhance community well-being.">  
                 </Ourvision>
