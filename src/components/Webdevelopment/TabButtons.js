@@ -57,40 +57,39 @@ const TabButtons = ({ tab1, tab2, tab3 }) => {
 
   const renderDropdown = () => (
     <Select
-    value={activeTab}
-    onChange={handleChange}
-    displayEmpty
-    fullWidth
-    variant="outlined"
-    sx={{
-      '& .MuiOutlinedInput-notchedOutline': {
-        border: 'none',
-      },
-      '& .MuiSelect-select': {
-        py: 1, // Padding Y
-        px: 2, // Padding X
-        typography: 'button',
-        textTransform: 'none',
-        fontWeight: 'bold',
-        fontSize: '1rem',
-        justifyContent: 'center',
-        display: 'flex',
-        alignItems: 'center',
-        backgroundColor: 'white',
-        '&:focus': {
-          backgroundColor: 'white',
+      value={activeTab}
+      onChange={handleChange}
+      displayEmpty
+      fullWidth
+      variant="outlined"
+      sx={{
+        '& .MuiOutlinedInput-notchedOutline': {
+          border: 'none',
         },
-      },
-      '& .MuiSelect-icon': {
-        color: 'black', // You can adjust the color
-      },
-    }}
-  >
-    <MenuItem value={tab1}>{tab1}</MenuItem>
-    <MenuItem value={tab2}>{tab2}</MenuItem>
-    <MenuItem value={tab3}>{tab3}</MenuItem>
-  </Select>
-
+        '& .MuiSelect-select': {
+          py: 1, // Padding Y
+          px: 2, // Padding X
+          typography: 'button',
+          textTransform: 'none',
+          fontWeight: 'bold',
+          fontSize: '1rem',
+          justifyContent: 'center',
+          display: 'flex',
+          alignItems: 'center',
+          backgroundColor: 'white',
+          '&:focus': {
+            backgroundColor: 'white',
+          },
+        },
+        '& .MuiSelect-icon': {
+          color: 'black', // You can adjust the color
+        },
+      }}
+    >
+      <MenuItem value={tab1}>{tab1}</MenuItem>
+      <MenuItem value={tab2}>{tab2}</MenuItem>
+      <MenuItem value={tab3}>{tab3}</MenuItem>
+    </Select>
   );
 
   const renderEngageTeamSection = () => {
@@ -119,11 +118,13 @@ const TabButtons = ({ tab1, tab2, tab3 }) => {
           {isMobile ? renderDropdown() : renderTabs()}
         </Box>
       </Container>
-      {activeTab && (
-        <Container>
-          {renderEngageTeamSection()}
-        </Container>
-      )}
+      <div style={{ margin: '0', padding: '0' }}>
+        {activeTab && (
+          <Container>
+            {renderEngageTeamSection()}
+          </Container>
+        )}
+      </div>
     </>
   );
 };

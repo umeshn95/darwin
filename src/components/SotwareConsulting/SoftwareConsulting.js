@@ -35,15 +35,15 @@ import { useTheme } from "@mui/material/styles";
 import { Link } from 'react-router-dom';
 
 const SoftwareConsulting = () => {
-
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
     return <div className='software_consulting_main'>
         <div className='software_consulting_sub'>
             <div className='software_consulting_development_services'> <span style={{ color: 'linear-gradient(' +
     '265deg, ' +
     '#1ca3e9, ' +
     'rgb(29, 27, 110)' +
-    ')'}}>Darwin Student Assessments with <br/>
-Expert Visualization Services...</span></div>
+    ')'}}>{isMobile?'Darwin Services':'Darwin Student Assessments with Expert Visualization Services...'}</span></div>
             <div className='software_consulting_perfect_blend'>... dynamic student assessment analytics & visualization solutions.</div>
             <div className='software_consulting_perfect_all'>
             
