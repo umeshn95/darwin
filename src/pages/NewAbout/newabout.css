@@ -1,7 +1,26 @@
 .index-section-wrapper_about{
     margin: 0 auto;
-    padding: 136px  142px 0px 132px;
-    height: 90vh;
+    padding: 216px  152px 0px 42px;
+    height: 100vh;
+}
+.index-section-wrapper_fnp{
+    margin: 0 auto;
+    padding: 216px  152px 0px 42px;
+    height: 100vh;
+}
+
+.main_heading_front{
+  white-space: pre-wrap;
+  color: white ;
+  font-size: 52px;
+}
+
+.main_description_front{
+  white-space: pre-wrap;
+  color: white ;
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 1.4;
 }
 
 /* Responsive adjustments */
@@ -9,6 +28,19 @@
     .index-section-wrapper_about {
       padding: 60px 20px 0px 20px;
       height: auto;
+    }
+    .main_heading_front{
+      padding: 30px 0px 0px 10px;
+      white-space: pre-wrap;
+      color: white ;
+      font-size: 42px;
+    }
+    .main_description_front{
+      padding: 0px 0px 0px 10px;
+      white-space: pre-wrap;
+      color: white;
+      font-size: 20px;
+      margin-top: 30px;
     }
   }
   

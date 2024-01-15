@@ -27,6 +27,7 @@ import Projectcompletion from '../Projectcompletion/Projectcompletion'
 import Customerchoice from '../Customerchoice/Customerchoice'
 import Unifieddataplatform from '../UnifiedDataplatform/Unifieddataplatform'
 import { AboutHeading } from '../../pages/NewAbout/Newabout'
+import DataProcess from '../Webdevelopment/Dataprocess'
 const LandingPage = () => {
   const [i,setI] = useState(0)
   const [textmoving,setTextmoving] = useState(['success','victory','progres','Triumps'])
@@ -115,20 +116,20 @@ const LandingPage = () => {
       </Container> */}
       {/* <MainBanner /> */}
 
-      <AboutHeading/>
+      <AboutHeading containercss={true} heading="Data Analytics To Enhance Student Learning Graph" description={ "Our mission is to actualize the expansive promise of education  by transforming data into actionable insights that positively impact students."}backgroundUrl="https://images.squarespace-cdn.com/content/5716af60356fb068327b23af/1618503106278-HIOZ65Y6LZOI4W95C4BN/About+Header.jpg"/>
 
-<Customerchoice/>
+<Customerchoice heading='The Darwin Analytics Tool' description='We spent the last decade assembling the highest-quality platform that works for every educator to deliver solutions that truly improve the way the world learns.'/>
 <SoftwareConsulting/>
-
-
-<Unifieddataplatform/>
+<DataProcess hide3={true} img1="https://res.cloudinary.com/dvmqfke8w/image/upload/v1704964399/5Essentials-Survey-2-150x150_cs5qk7.png" img2="https://res.cloudinary.com/dvmqfke8w/image/upload/v1704964600/5Essentials-Professional-Learning-150x150_xvvkde.png" img3="https://res.cloudinary.com/dvmqfke8w/image/upload/v1704964811/Needs-Assessment-150x150_gvbfwk.png" img4="https://res.cloudinary.com/dvmqfke8w/image/upload/v1704964904/Leadership-coaching-150x150_qmy9yn.png" img5="https://res.cloudinary.com/dvmqfke8w/image/upload/v1704964979/District-systems-advising-150x150_x8qtbw.png" img6="https://res.cloudinary.com/dvmqfke8w/image/upload/v1704964979/District-systems-advising-150x150_x8qtbw.png" heading="Darwin Analytic Services" description="We focus on creating visualization dashboards that present insights of student Assessment." heading1="F&P Assessment" description1="The F&P Assessment Visualization designed to show growth and achievement of students." heading2="NWEA Map Suite" description2="The MAP Scanner analyzes group-wide student progress and academic performance." heading3="WIDA Dashboard" description3=" The WIDA Assessment Visualization designed to show growth and achievement of students in English language." heading4="MAP Explorer" description4=" Identifies student groups with similar learning styles, enabling tailored teaching strategies for the entire class." heading5="MAP Growth" description5="
+This visualization easily tracks the number of students meeting MAP Projected Growth in each grade and subject from year to year." heading6="MAP Comparision" description6="Quickly summarizes student improvement and score distribution across various groups."/>
+{/* <Unifieddataplatform/> */}
       
-<Projectcompletion/>
 {/* <DesignDev/> */}
       {/* <HireDeveloper /> */}
       {/* <Newcard /> */}
       {/* <Newcounter/> */}
       {/* <Furtherinformation/> */}
+<Projectcompletion/>
 <ContactUs/>
 
       

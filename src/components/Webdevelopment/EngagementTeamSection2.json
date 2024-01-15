@@ -1,0 +1,35 @@
+[
+    {
+        "key": "WIDA Assessment",
+        "image": "https://res.cloudinary.com/dvmqfke8w/image/upload/v1705039914/It-features-a-smiling-lady-in-the-foreground--with-a-black-and-white-floral-patterned-top--and-glasses--The-background-is-a-stylized-graphical-representation-with-a-light-teal-or-turquoise-color--embe-1_1_b9hxft.jpg",
+        "heading": "WIDA Assessment",
+        "description": "The WIDA Assessment Visualization designed to show growth and achievement of students in English language.",
+        "description1": "",
+        "description2": "",
+        "heading1": "FEATURED CONTENT",
+        "description3": "Explore comprehensive insights into English language proficiency with WIDA Assessment.",
+        "description4": "WIDA Assessment provides detailed evaluation of students' English language skills, aiding educators in planning effective instructions."
+    },
+    {
+        "key": "WIDA Dashboard",
+        "image": "https://res.cloudinary.com/dvmqfke8w/image/upload/v1705039913/It-features-a-smiling-lady-in-the-foreground--with-a-black-and-white-floral-patterned-top--and-glasses--The-background-is-a-stylized-graphical-representation-with-a-light-teal-or-turquoise-color--embe-2_1_lftf1x.jpg",
+        "heading": "WIDA Dashboard",
+        "description": "Instant insights into scores and variations across listening, speaking, reading, and writing, all in one place.",
+        "description1": "",
+        "description2": "",
+        "heading1": "FEATURED CONTENT",
+        "description3": "Navigate through various English language proficiency metrics with ease using the WIDA Dashboard.",
+        "description4": "The WIDA Dashboard simplifies data analysis, enabling a quick understanding of student performance in key language areas."
+    },
+    {
+        "key": "WIDA Flows",
+        "image": "https://res.cloudinary.com/dvmqfke8w/image/upload/v1705039860/iw0zocanzqhnfxee2fj0.jpg",
+        "heading": "WIDA Flows",
+        "description": "Visualize student progress effortlessly with our WIDA Flows charts.",
+        "description1": "",
+        "description2": "",
+        "heading1": "FEATURED CONTENT",
+        "description3": "WIDA Flows charts offer an intuitive view of students' English language development over time.",
+        "description4": "These charts are instrumental for educators to monitor and assess the language growth trajectories of their students."
+    }
+]

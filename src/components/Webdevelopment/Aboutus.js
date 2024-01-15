@@ -5,6 +5,8 @@ import { SimpleAccordion } from '../Navbar/Navbar'
 import ReachOut from '../Reachout/ReachOut'
 import './styles.css'
 import WebdevFaq from './WebdevFaq'
+import webdevdata from '../Webdevelopment/faq.json'
+
 import WebdevProcessPage from './WebdevProcessPage'
 import WebdevserviceMain from './WebdevserviceMain'
 import mobileapp from '../../images/about_us_hero.webp'
@@ -28,7 +30,7 @@ We Offer' heading1= {mobileout}  />
                 <WebdevProcessPage />
                 {/* <DesignDev /> */}
                 
-                <WebdevFaq/>
+                <WebdevFaq data={webdevdata}/>
             </div>
        </>
     )

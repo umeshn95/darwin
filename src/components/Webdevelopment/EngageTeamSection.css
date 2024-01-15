@@ -1,0 +1,56 @@
+.engagement-teamsection-container{
+  display: flex;
+  background: white;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #08000052; /* Light line at the bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  margin: 0 auto; /* Center the container */
+  padding: 0 15px; /* Padding on sides */
+}
+
+.engagement-teamsection-left{
+  padding: 30px;
+}
+
+.engagement-teamsection-readytobuild{
+  padding: 0px 30px;
+}
+
+.engagement-teamsection-visit{
+  padding: 0px 30px;
+}
+
+.engagement-teamsection-right{
+  padding: 20px 0px;
+}
+
+.wp-block-columns {
+    display: flex;
+  }
+  
+  .wp-block-column {
+    padding: 1.25rem; /* Adjust to match the design */
+    margin-right: 1.25rem; /* Adjust to match the design */
+  }
+  
+  h2 {
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1.13rem;
+  }
+  
+  /* Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .engagement-teamsection-left{
+      padding: 3px;
+    }
+    .wp-block-columns {
+      flex-direction: column;
+    }
+  }
+  

@@ -38,13 +38,13 @@ const SoftwareConsulting = () => {
 
     return <div className='software_consulting_main'>
         <div className='software_consulting_sub'>
-            <div className='software_consulting_development_services'>Data <span style={{ color: 'linear-gradient(' +
+            <div className='software_consulting_development_services'> <span style={{ color: 'linear-gradient(' +
     '265deg, ' +
     '#1ca3e9, ' +
     'rgb(29, 27, 110)' +
-    ')'}}>Consulting & <br/>
-Analytics Services...</span></div>
-            <div className='software_consulting_perfect_blend'>...with the perfect blend of technology, expertise and innovation.</div>
+    ')'}}>Darwin Student Assessments with <br/>
+Expert Visualization Services...</span></div>
+            <div className='software_consulting_perfect_blend'>... dynamic student assessment analytics & visualization solutions.</div>
             <div className='software_consulting_perfect_all'>
             
             <SoftwareConsultingAll/>
@@ -99,10 +99,10 @@ const SoftwareConsultingContentBottom = (props) => {
       <div className='software_consulting_web_design_and_development_content'>
             <div className='software_consulting_web_design_and_development_heading'>
                 {props.name === 0 ? 'Student Performance Analytics' : ''}
-                {props.name === 3 ? 'Attendance Analysis' : ''}
-                {props.name === 2 ? 'Teacher and Staff Analytics' : ''}
-                {props.name === 4 ? 'Standardized Testing Analysis' : ''}
-                {props.name === 5 ? 'Enrollment and Demographics' : ''}
+                {props.name === 3 ? 'WIDA Dashboard' : ''}
+                {props.name === 2 ? 'F&P Assessment' : ''}
+                {props.name === 4 ? 'NWEA Map suite' : ''}
+                {props.name === 5 ? 'CBSE Grade Evaluation' : ''}
                 {props.name === 1 ? 'Data Visualization and Reporting' : ''}
             
             
@@ -111,10 +111,10 @@ const SoftwareConsultingContentBottom = (props) => {
             </div>
             <div className='software_consulting_web_design_and_development_description'>
                 {props.name === 0 ? 'Scalable web product development at any stage and ongoing support after launch.' : ''}
-                {props.name === 3 ? 'Monitor and analyze attendance data to identify patterns and trends. This can help in improving attendance rates.' : ''}
-                {props.name === 2 ? 'Access teacher and staff performance, including professional development needs and evaluation processes.' : ''}
-                {props.name === 4 ? 'Analyze results from standardized tests to measure student progress and identify areas for improvement.' : ''}
-                {props.name === 5 ? 'Analyze enrollment trends, student demographics, and geographic distribution to plan for future growth and resource allocation.' : ''}
+                {props.name === 3 ? 'Unveil the progress of English language learners through our WIDA Assessment Analytics.' : ''}
+                {props.name === 2 ? 'F&P Assessment Visualization provides a comprehensive overview of students academic journeys.' : ''}
+                {props.name === 4 ? 'Map suites of services is anchored by credible and consistent assessments, designed to deliver actionable insights and effective learning strategies.' : ''}
+                {props.name === 5 ? 'CBSE Grade Analytics provides Data insights to educators, powered through our research expertise, resulting  Actionable data in Academic education .' : ''}
                 {props.name === 1 ? 'Develop interactive dashboards, charts, graphs, and reports to present educational data in a visually engaging and comprehensible manner.' : ''}
             
                </div>
@@ -167,22 +167,22 @@ const SoftwareConsultingContentBottom = (props) => {
                         
                     
                     </Grid></div>
-          {props.name===0?  <Link to='/webdev'>
+          {props.name===0?  <Link to='/nweamapsuite'>
             <div className='software_consulting_web_design_and_development_learn_more'> Learn More</div>
             </Link>:""}
-          {props.name===1?  <Link to='/appdev'>
+          {props.name===1?  <Link to='/widadashboard'>
             <div className='software_consulting_web_design_and_development_learn_more'> Learn More</div>
             </Link>:""}
-          {props.name===2?  <Link to='/Uiux'>
+          {props.name===2?  <Link to='/fnpAssessment'>
             <div className='software_consulting_web_design_and_development_learn_more'> Learn More</div>
             </Link>:""}
-          {props.name===3?  <Link to='/qualityAssurance'>
+          {props.name===3?  <Link to='/widadashboard'>
             <div className='software_consulting_web_design_and_development_learn_more'> Learn More</div>
             </Link>:""}
-          {props.name===4?  <Link to='/enterprisedevelopment'>
+          {props.name===4?  <Link to='/nweamapsuite'>
             <div className='software_consulting_web_design_and_development_learn_more'> Learn More</div>
             </Link>:""}
-          {props.name===5?  <Link to='/iot'>
+          {props.name===5?  <Link to='/cbse'>
             <div className='software_consulting_web_design_and_development_learn_more'> Learn More</div>
             </Link>:""}
 

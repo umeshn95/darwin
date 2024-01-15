@@ -162,10 +162,11 @@ const Navbar = () => {
   
   <details className="warning">
     <summary>Solutions</summary>
-    <Link onClick={()=>setCross(!cross)} to='/dataM' style={{textDecoration:"none"}}><p>Data Modernization</p> </Link>
-    <Link onClick={()=>setCross(!cross)} to='/dataD' style={{textDecoration:"none"}}> <p>Data Dashboards</p> </Link>
-    <Link onClick={()=>setCross(!cross)} to='/dataC' style={{textDecoration:"none"}}>  <p>Data Coaching</p>  </Link>
-    <Link onClick={()=>setCross(!cross)} to='/Uiux' style={{textDecoration:"none"}}>   <p>Data Assessment</p>  </Link>
+    <Link onClick={()=>setCross(!cross)} to='/fnpAssessment' style={{textDecoration:"none"}}>   <p>F&P Assessment</p>  </Link>
+    <Link onClick={()=>setCross(!cross)} to='/nweamapsuite' style={{textDecoration:"none"}}><p>NWEA Map Suite</p> </Link>
+    <Link onClick={()=>setCross(!cross)} to='/widaDashboard' style={{textDecoration:"none"}}> <p>WIDA Dashboards</p> </Link>
+    <Link onClick={()=>setCross(!cross)} to='/cbse' style={{textDecoration:"none"}}>  <p>CBSE Academic Evaluation</p>  </Link>
+    
     
     </details>
   
@@ -176,16 +177,17 @@ const Navbar = () => {
      <Link onClick={()=>setCross(!cross)} to='/education' style={{textDecoration:"none"}}>   <p>Education</p>  </Link>
     <Link onClick={()=>setCross(!cross)} to='/food' style={{textDecoration:"none"}}>    <p>Food & Grocery</p>    </Link> */}
     </details>
-    <Link to='/whydarwin' onClick={()=>setCross(!cross)} style={{textDecoration:"none"}}>
+    
+
+    <Link to='/about' onClick={()=>setCross(!cross)} style={{textDecoration:"none"}}>
   <details class="alert">
-   <summary>Why Darwin</summary>
+   <summary>About Us</summary>
     
                   </details>
                   </Link>
-
-                  <Link to='/aboutus' onClick={()=>setCross(!cross)} style={{textDecoration:"none"}}>
-  <details class="info">
-   About Us
+                  <Link to='/career' onClick={()=>setCross(!cross)} style={{textDecoration:"none"}}>
+  <details class="alert">
+   <summary>Career</summary>
     
                   </details>
                   </Link>
@@ -205,11 +207,10 @@ const Navbar = () => {
           style={{
             zIndex: "999",
             position: "fixed",
-            background: 'linear-gradient(' +
-            '265deg, ' +
-            '#1ca3e9, ' +
-            'rgb(29, 27, 110)' +
-            ')',
+            // linear-gradient(265deg, #1ca3e9, rgb(29, 27, 110))
+            background:  scrollPosition > 1
+            ? `#000080`
+            : 'transparent',
           }}
         >
           <header className="header_sub_blue">
@@ -297,18 +298,6 @@ const Navbar = () => {
               </Grid>
               <Grid
                 item
-                sm={1.3}
-                md={1.2}
-                lg={1.2}
-                className={classes.pricing}
-                onMouseEnter={() => setContenthub(true)}
-                onMouseLeave={() => setContenthub(false)}
-              >
-                <Link to='/whydarwin' style={{textDecoration:"none",color:"white"}}>Why Darwin</Link>
-          
-              </Grid>
-              <Grid
-                item
                 sm={1}
                 md={1}
                 lg={0.9}
@@ -319,28 +308,41 @@ const Navbar = () => {
                 <Link to="/about" style={{textDecoration:"none",color:"white"}}>About Us</Link>
                
               </Grid>
+              <Grid
+                item
+                sm={1.3}
+                md={1.2}
+                lg={1.2}
+                className={classes.pricing}
+                onMouseEnter={() => setContenthub(true)}
+                onMouseLeave={() => setContenthub(false)}
+              >
+                <Link to='/career' style={{textDecoration:"none",color:"white"}}>Career</Link>
+          
+              </Grid>
+              
               {/* <Grid item sm={1} md={1} lg={1} className={classes.pricing}>
                 Pricing{" "}
               </Grid> */}
 
-              <Grid item sm={1.5} md={1} lg={2.5}>
+              <Grid item sm={1.5} md={1} lg={2.5} style={{marginLeft:"85px"}}>
                   <Link to='/contact' style={{textDecoration:"none",color:'black',
-      color: "black",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
       borderRadius: "50rem",
       cursor: "pointer",
+      
       }}>
-                <button style={{textDecoration:"none",color:'black',
-      color: "black",
+                <button style={{textDecoration:"none",color:'black',background: scrollPosition>1?"white":"#1D1B6E",
+      color: scrollPosition>1?"black":"white",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
       borderRadius: "50rem",
       border:"none",
       cursor: "pointer",
-      padding: "10px 30px"}}>Contact Us</button>
+      padding: "10px 30px"}}><strong>Contact Us</strong></button>
                     
               </Link>
                 </Grid>
@@ -394,7 +396,7 @@ const Navbar = () => {
                      {n.text}
                   </div>
                   </Link>
-                  <Divider />
+                  
                 </Grid>
               ))}
             </Grid>

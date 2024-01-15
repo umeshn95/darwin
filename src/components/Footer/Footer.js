@@ -408,13 +408,9 @@ import { Link } from 'react-router-dom/cjs/react-router-dom';
 const useStyles = makeStyles((theme) => ({
   footerMainDiv: {
     
-    background: 'linear-gradient(' +
-    '265deg, ' +
-    '#1ca3e9, ' +
-    'rgb(29, 27, 110)' +
-    ')', // Set your desired background color
+    background: '#000080', // Set your desired background color
     color: '#fff', // Set your desired text color
-    padding: '15px 50px',
+    padding: '35px 65px',
   },
   footerDivAddress: {
     margin: '10px 0',
@@ -576,55 +572,55 @@ const Footer = ({ matches }) => {
       {/* <div className={classes.footerDivAddress}>www.darwinanalytic.com</div> */}
     </Grid>
     <Grid item xs={6} md={2} lg={2}>
-      <Grid container direction="column" spacing={0.5}>
+      <Grid container direction="column" spacing={1.5}>
         <Grid item>
           <Typography variant="h6" className={classes.footerDivServiceHeading}>
             Solutions
           </Typography>
         </Grid>
         <Grid item >
-          <Link to="/dataM"  className={classes.footerDivServiceHeading}>
+          <Link to="/nweamapsuite"  className={classes.footerDivServiceHeading}>
             Data Modernization
           </Link>
         </Grid>
         <Grid item >
-          <Link to="/dataD" className={classes.footerDivServiceHeading}>
+          <Link to="/widaDashboard" className={classes.footerDivServiceHeading}>
             Data Dashboard
           </Link>
         </Grid>
         <Grid item >
-              <Link to="/dataA" className={classes.footerDivServiceHeading}>
+              <Link to="/fnpAssessment" className={classes.footerDivServiceHeading}>
                 Data Assessment
               </Link>
             </Grid>
       </Grid>
     </Grid>
     <Grid item xs={6} md={2} lg={2}>
-      <Grid container direction="column" spacing={0.5}>
+      <Grid container direction="column" spacing={1.5}>
         <Grid item>
           <Typography variant="h6" className={classes.footerDivServiceHeading}>
             Industries
           </Typography>
         </Grid>
         <Grid item>
-          <Link to="/dataM" className={classes.footerDivServiceHeading}>
+          <Link to="/nweamapsuite" className={classes.footerDivServiceHeading}>
             Education
           </Link>
         </Grid>
         <Grid item>
-          <Link to="/dataD" className={classes.footerDivServiceHeading}>
+          <Link to="/widaDashboard" className={classes.footerDivServiceHeading}>
             E-commerce
           </Link>
         </Grid>
         <Grid item>
-          <Link to="/dataA" className={classes.footerDivServiceHeading}>
+          <Link to="/fnpAssessment" className={classes.footerDivServiceHeading}>
             Healthcare
           </Link>
         </Grid>
       </Grid>
     </Grid>
     <Grid item xs={6} md={2} lg={2}>
-      <Grid container direction="column" spacing={0.5}>
+      <Grid container direction="column" spacing={1.5}>
         <Grid item>
           <Typography variant="h6" className={classes.footerDivServiceHeading}>
             About Us

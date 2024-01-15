@@ -15,10 +15,10 @@ import iotwhite from '../../images/iot_white.svg'
 export const webdev = [
     {icon:webdevelopmentimage,icon1:websitewhite,text:'Student Performance Analytics'},
     {icon:iot,icon1:iotwhite,text:'Data Visualization and Reporting'},
-    {icon:uiux,icon1:uxwhite,text:'Teacher and Staff Analytics'},
-    {icon:mobiledev,icon1:mobilewhite,text:'Attendance Analysis'},
-    {icon:testing,icon1:softwaretestingwhite,text:'Standardized Testing Analysis'},
-    {icon:block,icon1:BlockchainWhite,text:'Enrollment and Demographics'},
+    {icon:uiux,icon1:uxwhite,text:'F&P Assessment'},
+    {icon:mobiledev,icon1:mobilewhite,text:'WIDA Dashboard'},
+    {icon:testing,icon1:softwaretestingwhite,text:'NWEA Map suite'},
+    {icon:block,icon1:BlockchainWhite,text:'CBSE Grade Evaluation'},
   
 ]
 

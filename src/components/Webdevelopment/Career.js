@@ -9,26 +9,21 @@ import WebdevProcessPage from './WebdevProcessPage'
 import WebdevserviceMain from './WebdevserviceMain'
 import mobileapp from '../../images/about_us_hero.webp'
 import { mobileout } from '../Reachout/reachoutdata'
+import CareerSection from '../CareerPage/CareerSection'
+import ContentBlock from '../CareerPage/ContentBlock'
+import CareerPeople from '../CareerPage/CareerPeople'
+import Ourvision from '../../pages/NewAbout/Ourvision'
 function Career() {
 
     return (
         <>
             <div>
-                <div style={{width:'100%',height:'74px', background: 'linear-gradient(' +
-    '265deg, ' +
-    '#1ca3e9, ' +
-    'rgb(29, 27, 110)' +
-    ')',marginBottom:'50px'}}></div>
-                <WebdevserviceMain heading='Darwin - Your Go-to Technology Partner in Innovation' description='The only thing holding your business back is not being able to find the right software development partner. Let us take your problem off of your hands so you can focus on what really matters - running an efficient company! We help companies build innovative software with a team of world class engineers and an innovative approach to each project, so you can be confident in your success with us.' 
-                    icon={mobileapp}
-                />
-                <ReachOut description='UI/UX Design Service
-We Offer' heading1= {mobileout}  />
-                <HireDeveloper />
-                <WebdevProcessPage />
-                {/* <DesignDev /> */}
-                
-                <WebdevFaq/>
+                <div style={{width:'100%',height:'84px',background:"#000080"}}></div>
+                <CareerSection/>
+                <ContentBlock heading="Shape the Future of Education" description="        At Darwin, we bring learning to students and support teachers every step of the way. We are committed to transforming classrooms with our innovative technology experiences and creating environments where all learners can thrive."/>
+                <CareerPeople/>
+                <Ourvision image1={"https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1575582984208-TS0Y8GN033W91OAPLJOA/About+Lasting+Impact.png"} heading1="Life at Darwin" description1="Our shared belief in the power of learning brings us all together to support educators and shape student success. Find out more about our purpose-driven culture." image2="https://res.cloudinary.com/dvmqfke8w/image/upload/v1705292764/In-this-image--we-see-two-people-engaged-in-a-community-activity--likely-a-mural-painting-project--Both-individuals-are-holding-red-plastic-cups-with-paintbrushes--indicating-they-are-contributing-to-_fpmtrc.jpg" heading2="Corporate Social Responsibility"  description2="We’re committed to making a difference through efforts such as our employee-led Cares Councils and annual Volunteer Week.">  
+                </Ourvision>
             </div>
        </>
     )

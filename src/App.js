@@ -8,6 +8,7 @@ import Webdev from './pages/Webdev/Webdev';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import { Navbar, Footer } from './components';
+import CssBaseline from '@mui/material/CssBaseline';
 import Chatbot from './pages/Chatbot/Chatbot';
 import SchoolManage from './pages/SchoolManage/SchoolManage';
 import About from './pages/About/About';
@@ -40,9 +41,11 @@ import Whydarwins from './pages/WhyDarwins/Whydarwins';
 import Newabout from './pages/NewAbout/Newabout';
 import Newcard from './components/Newcard/Newcard';
 import Plan from './pages/Plan/Plan';
+import CareerSection from './components/CareerPage/CareerSection';
+import Newopening from './components/CareerPage/Newopening';
 const APP= (
   <>
-    
+    <CssBaseline></CssBaseline>
   <Helmet>
     <meta charSet='UTF-8'/>
     <link rel="icon" href="/favicon.ico"/>
@@ -63,8 +66,10 @@ const APP= (
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />
+        <Route path='/opening' component={Newopening} />
+        
         <Route path='/howitworks' component={Howitwork} />
-        <Route path='/whydarwin' component={Whydarwins} />
+        <Route path='/whydarwin' component={Whydarwins} /> 
         <Route path='/pricing' component={Plan} />
         <Route path='/About' component={Newabout} />
         <Route path='/products' component={Products} />
@@ -75,10 +80,10 @@ const APP= (
         <Route path='/Uiux' component={Uiuxdevelopment} />
         <Route path='/qualityassurance' component={SoftwareQuality} />
         <Route path='/support' component={Support} />
-        <Route path='/dataM' component={Ecommerce} />
-        <Route path='/dataD' component={Healthcare} />
-        <Route path='/dataC' component={Education} />
-        <Route path='/dataA' component={Foodgrocery} />
+        <Route path='/nweamapsuite' component={Ecommerce} />
+        <Route path='/widaDashboard' component={Healthcare} />
+        <Route path='/cbse' component={Education} />
+        <Route path='/fnpAssessment' component={Foodgrocery} />
         <Route path='/aboutus' component={AboutUs} />
         <Route path='/career' component={Career} />
         <Route path='/chatbot' component={Chatbot} />
@@ -90,6 +95,7 @@ const APP= (
         <Route path='/whatwedo' component={Whatwedo} />
         <Route path='/technology' component={Technology} />
         <Route path='/technologyp' component={TechnologyP} />
+        <Route path="/career" component={CareerSection}></Route>
         {/* <Route path='/contactres' component={Contactresponse} /> */}
         <Route path='/technologys' component={TechnologyS} />
         <Route path='/technologyD' component={TechnologyD} />
@@ -108,3 +114,6 @@ const APP= (
 
 
 export default APP;
+
+
+

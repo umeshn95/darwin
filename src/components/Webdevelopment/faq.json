@@ -1,0 +1,17 @@
+ [
+    {
+        "class": "warning",
+        "question": "What reporting and visualization tools are available in Darwin Analytics?",
+        "answer": "Darwin data analytics provide reporting and visualization tools, such as dashboards, charts, and graphs, to help educators and administrators easily interpret data."
+    },
+    {
+        "class": "info",
+        "question": "How can Darwin Analytics benefit educational institutions?",
+        "answer": "Darwin Analytics help educational institutions in various ways, including improving student outcomes, identifying at-risk students, enhancing curriculum design, and streamlining administrative processes."
+    },
+    {
+        "class": "alert",
+        "question": "How can educators use Darwin Analytics to improve teaching methods?",
+        "answer": "Educators can use data from the platform to identify student needs, adapt teaching strategies, and provide targeted interventions for struggling students."
+    }
+]

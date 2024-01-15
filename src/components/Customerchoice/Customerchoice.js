@@ -3,7 +3,7 @@ import  Grid  from '@mui/material/Grid';
 import { Container, Typography } from '@mui/material';
 import './site.css'
 import './custom.css'
-const Customerchoice = () => {
+const Customerchoice = ({heading,description}) => {
   return (
     <>
     {/* <Grid container>
@@ -31,18 +31,22 @@ const Customerchoice = () => {
                       <div className="sqs-block-content">
                         <div className="sqs-html-content">
                           <h2 style={{ textAlign: 'center', whiteSpace: 'pre-wrap' }}>
-                            <strong>The Darwin Advantage</strong>
+                            <strong>{heading}</strong>
                           </h2>
                           <p style={{ textAlign: 'center', whiteSpace: 'pre-wrap' }} className="advantage_description">
-                            We spent the last decade assembling the highest-quality team and platform that works for every educator to deliver solutions that truly improve the way the world learns.&nbsp;
+                            {description}&nbsp;
                           </p>
                         </div>
                       </div>
                     </div>
                     <div className="sqs-block code-block sqs-block-code" data-block-type="23" id="block-yui_3_17_2_1_1624536735575_8389">
                       <div className="sqs-block-content">
-                        <video className="mp4-video-wrapper2" autoPlay loop width="100%" muted>
+                    
+                        {/* <video className="mp4-video-wrapper2" autoPlay loop width="100%" muted>
                           <source src="https://static1.squarespace.com/static/5716af60356fb068327b23af/t/60c2215020cd3a52137ffdec/1623335268945/Kapture+2020-01-14+at+14.26.21+trimmed.mp4?format=1000w" type="video/mp4" />
+                        </video> */}
+                        <video className="mp4-video-wrapper2" autoPlay loop width="100%" muted>
+                          <source src="https://res.cloudinary.com/duoha2ui0/video/upload/v1705138429/DemoCreatorRec_2023-12-31_14-11-33_online-video-cutter.com_1_pxl4eg.mp4" type="video/mp4" />
                         </video>
                         <p style={{ fontStyle: 'italic' }}>
                           Not actual customer data

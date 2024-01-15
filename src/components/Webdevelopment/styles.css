@@ -294,3 +294,75 @@ width:610px;
  
 
 
+/* Cover Block */
+.wp-block-cover {
+  position: relative;
+  text-align: center;
+}
+
+.wp-block-cover__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+}
+
+.wp-block-cover__image-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Inner Container */
+.wp-block-cover__inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Headings */
+.wp-block-heading {
+  text-align: center;
+}
+
+/* Paragraphs */
+.has-text-align-center {
+  text-align: center;
+}
+
+/* Spacers */
+.wp-block-spacer {
+  height: 5rem;
+}
+
+/* Columns */
+.wp-block-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wp-block-column {
+  flex: 1;
+  margin: 0 5px;
+  box-sizing: border-box;
+}
+
+/* Utility Classes */
+.mx-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+.px-1 {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+
+

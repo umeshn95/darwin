@@ -18,18 +18,13 @@ export const servicedata = [
 ]
 
 export const industrydata = [
-    { link: '/dataM', icon: webdevicon, text: 'Data Modernization' },
-    { link: '/dataD', icon: webdevicon, text: 'Data Dashboards' },
-    { link: '/dataC', icon: webdevicon, text: 'Data Coaching' },
-    { link: '/dataA', icon: webdevicon, text: 'Data Assessment' },
-  
- 
-
-
-
-]
+    { link: '/fnpAssessment', icon: webdevicon, text: 'F&P Assessment' },
+    { link: '/nweamapsuite', icon: webdevicon, text: 'NWEA Map Suite' },
+    { link: '/widaDashboard', icon: webdevicon, text: 'WIDA Dashboard' },
+    { link: '/cbse', icon: webdevicon, text: 'CBSE Acad Evaluation' },
+  ]
 export const dedicateddata = [
-    { link: '/aboutus', icon: webdevicon, text: 'About Us       ' },
+    { link: '/aboutus', icon: webdevicon, text: 'About Us' },
  
  
 

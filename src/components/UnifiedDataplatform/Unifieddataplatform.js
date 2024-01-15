@@ -24,12 +24,12 @@ const items = [
     
     
     
-    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421385460-GFT00AUA4FGOSVFGG8M8/6.Solutions+Academics.png?format=100w', text: 'Academics' },
+    // { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421385460-GFT00AUA4FGOSVFGG8M8/6.Solutions+Academics.png?format=100w', text: 'Academics' },
     
-    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421433115-XAYKAV2XRVVFMBOZBOOM/8.Solutions+Assesments.png?format=100w', text: 'Assessments' },
-    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421455694-AYRSJ3ULYVXC8KEB5JPB/9.Solutions+Enrollment.png?format=100w', text: 'Enrollment' },
-    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630601964682-FVZNA8FHVLUZ5JW9A9NS/10.Solutions+School+Climate+%26+Culture%3F.png?format=100w', text: 'School Culture' },
-    { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421760927-U2IT0R3GIZ4L9VR5GJOL/11.Solutions+Student+Interventions.png?format=100w', text: 'Intervention' },
+    // { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421433115-XAYKAV2XRVVFMBOZBOOM/8.Solutions+Assesments.png?format=100w', text: 'Assessments' },
+    // { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421455694-AYRSJ3ULYVXC8KEB5JPB/9.Solutions+Enrollment.png?format=100w', text: 'Enrollment' },
+    // { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630601964682-FVZNA8FHVLUZ5JW9A9NS/10.Solutions+School+Climate+%26+Culture%3F.png?format=100w', text: 'School Culture' },
+    // { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421760927-U2IT0R3GIZ4L9VR5GJOL/11.Solutions+Student+Interventions.png?format=100w', text: 'Intervention' },
     
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421789735-P2707P1HSIB5YNZVWZTD/12.Solutions+Ed-Tech+Impact.png?format=100w', text: 'EdTech Impact' },
     { icon: 'https://images.squarespace-cdn.com/content/v1/5716af60356fb068327b23af/1630421824838-WTWF1A9QVSLPC2A2H81A/13.Solutions+Technology+and+Learning.png?format=100w', text: 'Technology & Learning' },
@@ -73,7 +73,7 @@ const Unifieddataplatform = () => {
                             </strong>
                           </h2>
                           <p style={{ textAlign: 'center', whiteSpace: 'pre-wrap',lineHeight:"25px" }}>
-                            We offer 200+ outcome-based dashboards for your most important priorities. You can start with one
+                            We offer outcome-based dashboards for your most important priorities. You can start with one
                             dashboard, use them all, or create your own.
                           </p>
                         </div>

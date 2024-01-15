@@ -1,0 +1,42 @@
+.transparent-button {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    color: #000; /* Add your desired text color */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Adjust the gap between text and icon */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    position: relative;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    background-color: red; /* Add your desired circle color */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -15px;
+  }
+
+  .arrow-icon {
+    width: 400px; /* Adjust icon size as needed */
+    height: 400px;
+    fill: #000;
+    transform: rotate(0deg); /* Add your desired icon color */
+  }
+
+  .arrow-tail {
+    width: 6px; /* Adjust tail width as needed */
+    height: 6px; /* Adjust tail height as needed */
+    background-color: red; /* Match the circle color */
+    position: absolute;
+    top: 12px; /* Adjust the top position as needed */
+    left: 16px; /* Adjust the left position as needed */
+    clip-path: polygon(0 0, 100% 50%, 0 100%); /* Create a triangle shape */
+  }

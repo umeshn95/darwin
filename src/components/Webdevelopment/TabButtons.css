@@ -1,0 +1,66 @@
+.tab-container {
+  display: flex;
+  background: white;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #08000052; /* Light line at the bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  margin: 0 auto; /* Center the container */
+  padding: 0 15px; /* Padding on sides */
+}
+
+.tab-buttons {
+  text-align: center;
+  position: relative;
+  padding: 10px; /* Space for the indicator */
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  transition: color 0.3s ease;
+}
+
+.tab-button.active {
+  font-weight: bold;
+}
+
+.tab-button.active::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: purple; /* Active indicator color */
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+/* Adjust the position of the active indicator based on the active button */
+.tab-buttons .tab-button:nth-child(1).active::after {
+  background-color: #000; /* Color for the first button */
+}
+.tab-buttons .tab-button:nth-child(2).active::after {
+  background-color: #000; /* Color for the second button */
+}
+.tab-buttons .tab-button:nth-child(3).active::after {
+  background-color: #000; /* Color for the third button */
+}
+
+/* Add media query for responsiveness if necessary */
+@media (max-width: 768px) {
+  .tab-button {
+    padding: 8px 16px;
+    margin: 0 3px;
+    font-size: 0.875rem;
+  }
+}
