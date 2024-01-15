@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 const useStyles = makeStyles((theme) => ({
   dataProcessContainer: {
     padding: "30px",
-    backgroundImage: "url('https://res.cloudinary.com/dvmqfke8w/image/upload/v1705053776/Untitled_24_mvracg.png')",
+    backgroundImage: "url('https://res.cloudinary.com/dvmqfke8w/image/upload/v1705302899/background-pink-gradient_fv5kt2.png')",
     backgroundSize: 'cover',
     color: '#000',
   },

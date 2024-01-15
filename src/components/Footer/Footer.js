@@ -51,7 +51,7 @@ import './footerdiv.css'
 //       </Grid>
 //       <Grid item xs={6} md={2} lg={2}>
 //          <div className='footer_div_service_heading_head'>Solutions</div> 
-//          <Link to='/webdev' style={{textDecoration:'none', color:"white"}}><div className='footer_div_service_heading'>Data Modernization</div> </Link>
+//          <Link to='/webdev' style={{textDecoration:'none', color:"white"}}><div className='footer_div_service_heading'>NWEA Map Suite</div> </Link>
 //          <Link to='/Uiux' style={{textDecoration:'none', color:"white"}}><div className='footer_div_service_heading'>Data Dashboard  </div>  </Link>
 //          <Link to='/appdev' style={{textDecoration:'none', color:"white"}}><div className='footer_div_service_heading'>Data Assessment</div>   </Link>
          
@@ -445,7 +445,7 @@ const Footer = ({ matches }) => {
     //         Solutions
     //       </Typography>
     //       <Link to="/webdev" className={classes.footerDivServiceHeading}>
-    //         Data Modernization
+    //         NWEA Map Suite
     //       </Link>
     //       <Link to="/Uiux" className={classes.footerDivServiceHeading}>
     //         Data Dashboard
@@ -511,7 +511,7 @@ const Footer = ({ matches }) => {
   //         Solutions
   //       </Typography>
   //       <Link to="/webdev" className={classes.footerDivServiceHeading}>
-  //         Data Modernization
+  //         NWEA Map Suite
   //       </Link>
   //       <Link to="/Uiux" className={classes.footerDivServiceHeading}>
   //         Data Dashboard
@@ -580,17 +580,17 @@ const Footer = ({ matches }) => {
         </Grid>
         <Grid item >
           <Link to="/nweamapsuite"  className={classes.footerDivServiceHeading}>
-            Data Modernization
+            NWEA Map Suite
           </Link>
         </Grid>
         <Grid item >
           <Link to="/widaDashboard" className={classes.footerDivServiceHeading}>
-            Data Dashboard
+            WIDA
           </Link>
         </Grid>
         <Grid item >
               <Link to="/fnpAssessment" className={classes.footerDivServiceHeading}>
-                Data Assessment
+                F&P
               </Link>
             </Grid>
       </Grid>
@@ -604,17 +604,17 @@ const Footer = ({ matches }) => {
         </Grid>
         <Grid item>
           <Link to="/nweamapsuite" className={classes.footerDivServiceHeading}>
-            Education
+            NWEA Map Suite
           </Link>
         </Grid>
         <Grid item>
           <Link to="/widaDashboard" className={classes.footerDivServiceHeading}>
-            E-commerce
+            WIDA Dashboard
           </Link>
         </Grid>
         <Grid item>
           <Link to="/fnpAssessment" className={classes.footerDivServiceHeading}>
-            Healthcare
+            F&P Assessment
           </Link>
         </Grid>
       </Grid>
